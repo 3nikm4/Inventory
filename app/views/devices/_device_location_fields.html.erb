@@ -1,0 +1,14 @@
+<div class="nested-fields">
+  <fieldset>
+    <legend>Location</legend>
+    <p>
+      <%= f.label :location_id, "Location Name" %><br />
+      <%= f.collection_select(:location_id, Location.all, :id, :location_name, :prompt => true) %>
+    </p>
+    <p>
+      <%= f.label :patient_id, "Patient" %><br />
+      <%= f.collection_select(:patient_id, Patient.all, :id, :patient_full_name, :prompt => true) %>
+    </p>
+    <%= link_to_remove_association "Remove Location", f %>
+  </fieldset>
+</div>

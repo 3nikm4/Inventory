@@ -1,0 +1,93 @@
+Migrating to CreateUsers (20111112231452)
+Migrating to CreateGroups (20111112231708)
+Migrating to CreateDevices (20111112231726)
+Migrating to CreateDeviceStatuses (20111112231758)
+Migrating to CreateDeviceTypes (20111112231814)
+Migrating to CreateDeviceProblems (20111112231840)
+Migrating to CreateDeviceProblemStatuses (20111112231858)
+Migrating to CreateLocations (20111112231920)
+Migrating to CreatePractices (20111112232003)
+Migrating to CreateLocationTypes (20111112232021)
+Migrating to CreatePatients (20111112232052)
+Migrating to CreateDisposables (20111112232121)
+Migrating to CreateDisposableTypes (20111112232134)
+Migrating to CreateAudits (20111113002932)
+Migrating to CreateDeviceLocations (20111113193104)
+Migrating to CreateLocationAlertContacts (20111113195604)
+
+
+Started GET "/" for 10.0.1.4 at 2011-11-16 04:11:32 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (27.7ms)
+Completed 500 Internal Server Error in 302ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3: <head>
+    4:   <title>Inventory</title>
+    5:   <%= stylesheet_link_tag    "application" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__283990069_98325320'
+
+
+
+Started GET "/" for 10.0.1.4 at 2011-11-16 04:11:44 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3: <head>
+    4:   <title>Inventory</title>
+    5:   <%= stylesheet_link_tag    "application" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__283990069_98325320'
+
+
+
+Started GET "/devices" for 10.0.1.4 at 2011-11-16 04:11:53 -0500
+  Processing by DevicesController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+NoMethodError (undefined method `role?' for nil:NilClass):
+  app/models/ability.rb:7:in `initialize'
+
+
+
+Started GET "/" for 10.0.1.4 at 2011-11-16 04:12:01 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3: <head>
+    4:   <title>Inventory</title>
+    5:   <%= stylesheet_link_tag    "application" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__283990069_98325320'
+
+
+
+Started GET "/" for 10.0.1.4 at 2011-11-16 04:39:57 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (57.7ms)
+Completed 500 Internal Server Error in 167ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3: <head>
+    4:   <title>Inventory</title>
+    5:   <%= stylesheet_link_tag    "application" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___695135471_77568370'
+

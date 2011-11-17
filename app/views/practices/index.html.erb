@@ -1,0 +1,32 @@
+<h1>Listing practices</h1>
+
+<table>
+  <tr>
+    <th>Practice name</th>
+    <th></th>
+    <% if can? :update, @practice %>
+      <th></th>
+    <% end %>
+    <% if can? :destroy, @practice %>
+      <th></th>
+    <% end %>
+  </tr>
+
+<% @practices.each do |practice| %>
+  <tr>
+    <td><%= practice.practice_name %></td>
+    <td><%= link_to 'Show', practice %></td>
+    <% if can? :update, @practice %>
+      <td><%= link_to 'Edit', edit_practice_path(practice) %></td>
+    <% end %>
+    <% if can? :destroy, @practice %>
+      <td><%= link_to 'Destroy', practice, confirm: 'Are you sure?', method: :delete %></td>
+    <% end %>
+  </tr>
+<% end %>
+</table>
+
+<br />
+<% if can? :create, @practice %>
+  <%= link_to 'New Practice', new_practice_path %>
+<% end %>
