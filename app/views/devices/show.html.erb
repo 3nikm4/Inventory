@@ -1,15 +1,17 @@
+<h1>Device: <%= @device.serial_number %></h1>
+
 <p>
-  <b>Device status:</b>
+  <b>Status:</b>
   <%= @device.device_status.device_status %>
 </p>
 
 <p>
-  <b>Device type:</b>
+  <b>Type:</b>
   <%= @device.device_type.device_type %>
 </p>
 
 <p>
-  <b>Serial number:</b>
+  <b>Serial Number:</b>
   <%= @device.serial_number %>
 </p>
 
@@ -19,14 +21,16 @@
 </p>
 
 <p>
-  <b>Imsi:</b>
+  <b>IMSI:</b>
   <%= @device.imsi %>
 </p>
 
 <p>
-  <b>Iccid:</b>
+  <b>ICCID:</b>
   <%= @device.iccid %>
 </p>
+
+<%= render @device.device_location %>
 <%= render @device.device_problems %>
 
 

@@ -63,7 +63,7 @@ ActiveRecord::Schema.define(:version => 20111113195604) do
     t.integer  "device_status_id"
     t.integer  "device_type_id"
     t.string   "serial_number"
-    t.string  "asset_tag"
+    t.string   "asset_tag"
     t.text     "comment"
     t.string   "imsi"
     t.string   "iccid"
@@ -147,8 +147,7 @@ ActiveRecord::Schema.define(:version => 20111113195604) do
   create_table "users", :force => true do |t|
     t.integer  "group_id"
     t.string   "username"
-    t.string   "password_hash"
-    t.string   "password_salt"
+    t.string   "password"
     t.string   "first_name"
     t.string   "last_name"
     t.string   "email"

@@ -17,8 +17,9 @@
     <% end %>
   </tr>
 
+<%= paginate @devices %>
 <% @devices.each do |device| %>
-  <tr>
+  <tr bgcolor="#<%= cycle("FFFFFF","CCCCCC") %>">
     <td><%= device.device_status.device_status %></td>
     <td><%= device.device_type.device_type %></td>
     <td><%= device.serial_number %></td>

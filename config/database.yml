@@ -19,5 +19,5 @@ production:
   encoding: utf8
   database: devices_production
   username: root
-  password: 105W1r3lessDx
+  password: toor
   host: localhost

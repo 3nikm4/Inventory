@@ -41584,3 +41584,3101 @@ NoMethodError (undefined method `role?' for nil:NilClass):
 Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
 Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
 Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (45.5ms)
+
+
+Started GET "/" for 10.0.1.4 at 2011-11-17 17:32:32 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 200ms (Views: 199.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /device_problems.css - 200 OK (2ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /device_problem_statuses.css - 200 OK (2ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /device_types.css - 200 OK (2ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /device_statuses.css - 200 OK (3ms)
+
+
+Started GET "/assets/devices.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /devices.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /disposable_types.css - 200 OK (2ms)
+
+
+Started GET "/assets/groups.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /groups.css - 200 OK (3ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /disposables.css - 200 OK (2ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /location_types.css - 200 OK (3ms)
+
+
+Started GET "/assets/problem.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /problem.css - 200 OK (2ms)
+
+
+Started GET "/assets/locations.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /locations.css - 200 OK (2ms)
+
+
+Started GET "/assets/patients.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /patients.css - 200 OK (2ms)
+
+
+Started GET "/assets/practices.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /practices.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/session.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /session.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:33 -0500
+Served asset /cocoon.js - 200 OK (14ms)
+
+
+Started GET "/assets/audits.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /audits.js - 200 OK (2ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /device_statuses.js - 200 OK (2ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /device_problems.js - 200 OK (7ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /device_problem_statuses.js - 200 OK (2ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /device_types.js - 200 OK (2ms)
+
+
+Started GET "/assets/devices.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /devices.js - 200 OK (2ms)
+
+
+Started GET "/assets/groups.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /groups.js - 200 OK (1ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /disposables.js - 200 OK (3ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /disposable_types.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/locations.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /locations.js - 200 OK (2ms)
+
+
+Started GET "/assets/patients.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /patients.js - 200 OK (2ms)
+
+
+Started GET "/assets/practices.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /practices.js - 200 OK (2ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /location_types.js - 200 OK (3ms)
+
+
+Started GET "/assets/problem.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /problem.js - 200 OK (2ms)
+
+
+Started GET "/assets/session.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /session.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 10.0.1.4 at 2011-11-17 17:32:34 -0500
+Served asset /users.js - 200 OK (2ms)
+
+
+Started GET "/assets/audits.css?body=1" for 10.0.1.4 at 2011-11-17 17:32:37 -0500
+Served asset /audits.css - 200 OK (2ms)
+
+
+Started GET "/log_in" for 10.0.1.4 at 2011-11-17 17:32:40 -0500
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 10.0.1.4 at 2011-11-17 17:32:46 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qUsYq/e4ln3EfCYrXdo2vuqFt2/1ggNod1HtoNRkIzM=", "username"=>"russellpruitt", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'russellpruitt' LIMIT 1[0m
+Redirected to http://10.0.1.8:3000/
+Completed 302 Found in 334ms
+
+
+Started GET "/" for 10.0.1.4 at 2011-11-17 17:32:47 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mGroup Load (0.1ms)[0m  [1mSELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1[0m
+Completed 200 OK in 201ms (Views: 196.0ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-17 18:21:28 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (20.7ms)
+Compiled application.css  (7ms)  (pid 3336)
+Compiled audits.css  (10ms)  (pid 3336)
+Compiled device_problem_statuses.css  (0ms)  (pid 3336)
+Compiled device_problems.css  (0ms)  (pid 3336)
+Compiled device_statuses.css  (0ms)  (pid 3336)
+Compiled device_types.css  (0ms)  (pid 3336)
+Compiled devices.css  (0ms)  (pid 3336)
+Compiled disposable_types.css  (30ms)  (pid 3336)
+Compiled disposables.css  (0ms)  (pid 3336)
+Compiled groups.css  (0ms)  (pid 3336)
+Compiled home.css  (0ms)  (pid 3336)
+Compiled location_types.css  (0ms)  (pid 3336)
+Compiled locations.css  (0ms)  (pid 3336)
+Compiled patients.css  (0ms)  (pid 3336)
+Compiled practices.css  (0ms)  (pid 3336)
+Compiled problem.css  (0ms)  (pid 3336)
+Compiled scaffolds.css  (8ms)  (pid 3336)
+Compiled session.css  (0ms)  (pid 3336)
+Compiled users.css  (0ms)  (pid 3336)
+Compiled application.js  (12ms)  (pid 3336)
+Compiled jquery.js  (7ms)  (pid 3336)
+Compiled jquery_ujs.js  (0ms)  (pid 3336)
+Compiled cocoon.js  (0ms)  (pid 3336)
+Compiled audits.js  (191ms)  (pid 3336)
+Compiled device_problem_statuses.js  (183ms)  (pid 3336)
+Compiled device_problems.js  (239ms)  (pid 3336)
+Compiled device_statuses.js  (187ms)  (pid 3336)
+Compiled device_types.js  (185ms)  (pid 3336)
+Compiled devices.js  (198ms)  (pid 3336)
+Compiled disposable_types.js  (185ms)  (pid 3336)
+Compiled disposables.js  (191ms)  (pid 3336)
+Compiled groups.js  (185ms)  (pid 3336)
+Compiled home.js  (184ms)  (pid 3336)
+Compiled location_types.js  (189ms)  (pid 3336)
+Compiled locations.js  (185ms)  (pid 3336)
+Compiled patients.js  (185ms)  (pid 3336)
+Compiled practices.js  (187ms)  (pid 3336)
+Compiled problem.js  (187ms)  (pid 3336)
+Compiled session.js  (186ms)  (pid 3336)
+Compiled users.js  (187ms)  (pid 3336)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mGroup Load (0.4ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 3 LIMIT 1
+Completed 200 OK in 4222ms (Views: 4215.2ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:32 -0500
+Served asset /audits.css - 200 OK (3ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:32 -0500
+Served asset /device_statuses.css - 200 OK (4ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:32 -0500
+Served asset /device_problem_statuses.css - 200 OK (2ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:32 -0500
+Served asset /device_types.css - 200 OK (9ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:32 -0500
+Served asset /device_problems.css - 200 OK (3ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:32 -0500
+Served asset /devices.css - 200 OK (6ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /disposable_types.css - 200 OK (2ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /disposables.css - 200 OK (4ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /groups.css - 200 OK (13ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /location_types.css - 200 OK (7ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /locations.css - 200 OK (2ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /practices.css - 200 OK (7ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /patients.css - 200 OK (2ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /problem.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /scaffolds.css - 200 OK (10ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /users.css - 200 OK (3ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /session.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /jquery.js - 200 OK (16ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /cocoon.js - 200 OK (13ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /audits.js - 200 OK (5ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /device_problem_statuses.js - 200 OK (4ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /device_problems.js - 200 OK (3ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /device_statuses.js - 200 OK (2ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /device_types.js - 200 OK (1ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /devices.js - 200 OK (1ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /disposable_types.js - 200 OK (1ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /groups.js - 200 OK (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /location_types.js - 200 OK (1ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /disposables.js - 200 OK (2ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /locations.js - 200 OK (2ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /patients.js - 200 OK (2ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /practices.js - 200 OK (2ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /problem.js - 200 OK (17ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /users.js - 200 OK (2ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:33 -0500
+Served asset /session.js - 200 OK (4ms)
+
+
+Started GET "/log_out" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+  Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /audits.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /device_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /device_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /device_problems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /device_problem_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /disposable_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /disposables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /groups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /location_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /devices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /problem.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /locations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /practices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /audits.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /cocoon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /device_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /devices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /device_problem_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /device_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /device_problems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /disposable_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /location_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /groups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /disposables.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /locations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /practices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /problem.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-17 18:21:43 -0500
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-17 22:20:07 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (21.5ms)
+Compiled application.css  (7ms)  (pid 7675)
+Compiled audits.css  (45ms)  (pid 7675)
+Compiled device_problem_statuses.css  (1ms)  (pid 7675)
+Compiled device_problems.css  (1ms)  (pid 7675)
+Compiled device_statuses.css  (4ms)  (pid 7675)
+Compiled device_types.css  (1ms)  (pid 7675)
+Compiled devices.css  (1ms)  (pid 7675)
+Compiled disposable_types.css  (0ms)  (pid 7675)
+Compiled disposables.css  (0ms)  (pid 7675)
+Compiled groups.css  (0ms)  (pid 7675)
+Compiled home.css  (0ms)  (pid 7675)
+Compiled location_types.css  (0ms)  (pid 7675)
+Compiled locations.css  (0ms)  (pid 7675)
+Compiled patients.css  (0ms)  (pid 7675)
+Compiled practices.css  (3ms)  (pid 7675)
+Compiled problem.css  (3ms)  (pid 7675)
+Compiled scaffolds.css  (5ms)  (pid 7675)
+Compiled session.css  (0ms)  (pid 7675)
+Compiled users.css  (0ms)  (pid 7675)
+Compiled application.js  (12ms)  (pid 7675)
+Compiled jquery.js  (5ms)  (pid 7675)
+Compiled jquery_ujs.js  (0ms)  (pid 7675)
+Compiled cocoon.js  (0ms)  (pid 7675)
+Compiled audits.js  (445ms)  (pid 7675)
+Compiled device_problem_statuses.js  (199ms)  (pid 7675)
+Compiled device_problems.js  (238ms)  (pid 7675)
+Compiled device_statuses.js  (187ms)  (pid 7675)
+Compiled device_types.js  (185ms)  (pid 7675)
+Compiled devices.js  (187ms)  (pid 7675)
+Compiled disposable_types.js  (186ms)  (pid 7675)
+Compiled disposables.js  (191ms)  (pid 7675)
+Compiled groups.js  (195ms)  (pid 7675)
+Compiled home.js  (191ms)  (pid 7675)
+Compiled location_types.js  (195ms)  (pid 7675)
+Compiled locations.js  (191ms)  (pid 7675)
+Compiled patients.js  (209ms)  (pid 7675)
+Compiled practices.js  (208ms)  (pid 7675)
+Compiled problem.js  (193ms)  (pid 7675)
+Compiled session.js  (196ms)  (pid 7675)
+Compiled users.js  (241ms)  (pid 7675)
+Completed 200 OK in 4309ms (Views: 4308.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /audits.css - 200 OK (3ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /device_statuses.css - 200 OK (2ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /device_problems.css - 200 OK (2ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /device_problem_statuses.css - 200 OK (7ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /devices.css - 200 OK (2ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /device_types.css - 200 OK (15ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /disposable_types.css - 200 OK (5ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /disposables.css - 200 OK (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /home.css - 200 OK (8ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /groups.css - 200 OK (2ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /location_types.css - 200 OK (7ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /locations.css - 200 OK (2ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /patients.css - 200 OK (4ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /practices.css - 200 OK (2ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /problem.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /session.css - 200 OK (8ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /jquery_ujs.js - 200 OK (6ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /cocoon.js - 200 OK (5ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /audits.js - 200 OK (2ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /device_problem_statuses.js - 200 OK (2ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /device_problems.js - 200 OK (1ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /device_statuses.js - 200 OK (2ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /device_types.js - 200 OK (11ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /devices.js - 200 OK (6ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /disposable_types.js - 200 OK (2ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /disposables.js - 200 OK (2ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /groups.js - 200 OK (4ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /location_types.js - 200 OK (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /home.js - 200 OK (7ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /locations.js - 200 OK (1ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /patients.js - 200 OK (14ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /practices.js - 200 OK (1ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /problem.js - 200 OK (2ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /session.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:12 -0500
+Served asset /users.js - 200 OK (2ms)
+
+
+Started GET "/log_in" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 60ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /audits.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /device_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /device_problem_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /device_problems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /device_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /disposables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /devices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /disposable_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /groups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /location_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /practices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /problem.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /locations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /device_problem_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /cocoon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /audits.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /device_problems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /disposable_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /device_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /device_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /disposables.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /devices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /location_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /locations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /groups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /practices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /problem.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:14 -0500
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nXXL870qZyOUzkTa2vPyF2zn5YRzxIOWFEsozgGh5x8=", "username"=>"purpled00r", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'purpled00r' LIMIT 1[0m
+Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 217ms (Views: 15.6ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /audits.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /device_problems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /devices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /device_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /device_problem_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /device_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /groups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /disposable_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /location_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /disposables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /locations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /problem.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /practices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /cocoon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /device_problems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /device_problem_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /audits.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /device_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /disposables.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /device_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /disposable_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /devices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /groups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /locations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /location_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /practices.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /problem.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:18 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-11-17 22:20:25 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nXXL870qZyOUzkTa2vPyF2zn5YRzxIOWFEsozgGh5x8=", "username"=>"russellpruitt", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'russellpruitt' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 161ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-17 22:20:25 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mGroup Load (0.1ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1
+Completed 200 OK in 225ms (Views: 220.1ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:25 -0500
+Served asset /audits.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:25 -0500
+Served asset /device_problem_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:25 -0500
+Served asset /device_problems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:25 -0500
+Served asset /device_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:25 -0500
+Served asset /devices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:25 -0500
+Served asset /device_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:25 -0500
+Served asset /groups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:25 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /disposable_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /location_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /disposables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /locations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /practices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /problem.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /audits.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /device_problem_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /cocoon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /device_problems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /device_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /device_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /disposables.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /devices.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /groups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /location_types.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /practices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /disposable_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /locations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /problem.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:26 -0500
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2011-11-17 22:20:29 -0500
+  Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mGroup Load (0.2ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (5.3ms)[0m  [1mSELECT `users`.* FROM `users` [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 3 LIMIT 1[0m
+  [1m[35mGroup Load (0.9ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1[0m
+Rendered users/index.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 139ms (Views: 49.4ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /audits.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /device_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /devices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /device_problem_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /device_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /device_problems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /location_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /groups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /disposables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /locations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /disposable_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /practices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /problem.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /cocoon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /audits.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /device_problem_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /device_problems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /disposables.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /devices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /device_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /device_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /disposable_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /groups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /practices.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /locations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /location_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /problem.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:30 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/4/edit" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mGroup Load (0.1ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` =   LIMIT 1[0m
+  [1m[35mGroup Load (0.5ms)[0m  SELECT `groups`.* FROM `groups` 
+Rendered users/edit.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 61ms (Views: 28.0ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /audits.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /device_problem_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /device_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /devices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /device_problems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /device_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /disposable_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /disposables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /location_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /locations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /groups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /problem.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /practices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /audits.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /cocoon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /device_problems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /device_problem_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /disposables.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /device_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /disposable_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /device_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /devices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /groups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /locations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /location_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /problem.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /practices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:35 -0500
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started PUT "/users/4" for 127.0.0.1 at 2011-11-17 22:20:39 -0500
+  Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nXXL870qZyOUzkTa2vPyF2zn5YRzxIOWFEsozgGh5x8=", "user"=>{"group_id"=>"2", "username"=>"fbakerii", "first_name"=>"Frank", "last_name"=>"Baker", "email"=>"baker@rmddx.com", "active"=>"1"}, "commit"=>"Update User", "id"=>"4"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mGroup Load (0.1ms)[0m  [1mSELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` =   LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.8ms)[0m  SELECT 1 FROM `users` WHERE (`users`.`username` = BINARY 'fbakerii' AND `users`.`id` != 4) LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'baker@rmddx.com' AND `users`.`id` != 4) LIMIT 1[0m
+  [1m[35m (4.2ms)[0m  UPDATE `users` SET `group_id` = 2, `updated_at` = '2011-11-18 03:20:39' WHERE `users`.`id` = 4
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/4
+Completed 302 Found in 191ms
+
+
+Started GET "/users/4" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mGroup Load (0.1ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` =   LIMIT 1[0m
+  [1m[35mGroup Load (0.2ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 2 LIMIT 1
+Rendered users/show.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 96ms (Views: 26.6ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /audits.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /device_problem_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /device_problems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /device_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /device_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /groups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /devices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /location_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /disposable_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /disposables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /locations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /problem.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /practices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /cocoon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /audits.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /device_problem_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /devices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /device_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /disposables.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /device_problems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /disposable_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /groups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /device_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /locations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /location_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /problem.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /practices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-17 22:20:40 -0500
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-21 17:49:08 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (24.3ms)
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mGroup Load (0.4ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1
+Completed 200 OK in 1241ms (Views: 1233.0ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /devices.css - 200 OK (2ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /audits.css - 200 OK (4ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /device_statuses.css - 200 OK (3ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /device_problem_statuses.css - 200 OK (12ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /device_problems.css - 200 OK (8ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /device_types.css - 200 OK (5ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /disposable_types.css - 200 OK (14ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /disposables.css - 200 OK (2ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /groups.css - 200 OK (7ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /location_types.css - 200 OK (9ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /locations.css - 200 OK (14ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /patients.css - 200 OK (5ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /practices.css - 200 OK (2ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /problem.css - 200 OK (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /scaffolds.css - 200 OK (8ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /session.css - 200 OK (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /jquery_ujs.js - 200 OK (13ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /cocoon.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /audits.js - 200 OK (1ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /device_problem_statuses.js - 200 OK (2ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /device_statuses.js - 200 OK (2ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /device_problems.js - 200 OK (2ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /device_types.js - 200 OK (3ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /devices.js - 200 OK (2ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /disposable_types.js - 200 OK (2ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /disposables.js - 200 OK (2ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /groups.js - 200 OK (10ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /locations.js - 200 OK (2ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /patients.js - 200 OK (1ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /location_types.js - 200 OK (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /home.js - 200 OK (5ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /problem.js - 200 OK (7ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /practices.js - 200 OK (2ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /session.js - 200 OK (20ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-21 17:49:10 -0500
+Served asset /users.js - 200 OK (1ms)
+
+
+Started GET "/devices" for 127.0.0.1 at 2011-11-21 17:49:13 -0500
+  Processing by DevicesController#index as HTML
+  [1m[36mUser Load (2.9ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mGroup Load (0.2ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1
+  [1m[36mDevice Load (1.2ms)[0m  [1mSELECT `devices`.* FROM `devices` ORDER BY serial_number[0m
+Completed 500 Internal Server Error in 116ms
+
+NoMethodError (undefined method `page' for #<ActiveRecord::Relation:0xb1c667c>):
+  app/controllers/devices_controller.rb:7:in `index'
+
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.0ms)
+
+
+Started GET "/devices" for 127.0.0.1 at 2011-11-21 17:54:48 -0500
+  Processing by DevicesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mGroup Load (0.1ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM `devices` [0m
+  [1m[35mDevice Load (0.9ms)[0m  SELECT `devices`.* FROM `devices` ORDER BY serial_number LIMIT 20 OFFSET 0
+  [1m[36mDeviceStatus Load (0.5ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 2 LIMIT 1[0m
+  [1m[35mDeviceType Load (0.5ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 2 LIMIT 1
+  [1m[36mDeviceStatus Load (0.4ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 2 LIMIT 1
+  [1m[36mDeviceStatus Load (0.4ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 1 LIMIT 1[0m
+  [1m[35mDeviceType Load (0.2ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 1 LIMIT 1
+Rendered devices/index.html.erb within layouts/application (157.2ms)
+Cache for Asset (application.js) is stale
+/home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/jquery-rails-1.0.17/vendor/assets/javascripts/jquery.js isn't in paths: /home/russellpruitt/projects/inventory/app/assets/images, /home/russellpruitt/projects/inventory/app/assets/javascripts, /home/russellpruitt/projects/inventory/app/assets/stylesheets, /home/russellpruitt/projects/inventory/vendor/assets/stylesheets, /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/cocoon-1.0.14/app/assets/javascripts, /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/jquery-rails-1.0.18/vendor/assets/javascripts
+Compiled application.js  (43ms)  (pid 6290)
+Compiled jquery.js  (4ms)  (pid 6290)
+Compiled jquery_ujs.js  (0ms)  (pid 6290)
+Completed 200 OK in 630ms (Views: 418.5ms | ActiveRecord: 13.3ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /audits.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /device_problem_statuses.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /device_types.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /devices.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /device_problems.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /device_statuses.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /disposable_types.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /groups.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /disposables.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /locations.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /location_types.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /problem.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /practices.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /patients.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /session.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /cocoon.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /audits.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /device_problem_statuses.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /device_problems.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /device_statuses.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /device_types.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /disposable_types.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /devices.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /groups.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /disposables.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /location_types.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /locations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /patients.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /practices.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /problem.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /session.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-21 17:54:49 -0500
+Served asset /users.js - 304 Not Modified (9ms)
+
+
+Started GET "/devices" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+  Processing by DevicesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mGroup Load (0.1ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `devices` [0m
+  [1m[35mDevice Load (0.8ms)[0m  SELECT `devices`.* FROM `devices` ORDER BY serial_number LIMIT 3 OFFSET 0
+  [1m[36mDeviceStatus Load (0.2ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 2 LIMIT 1[0m
+  [1m[35mDeviceType Load (0.1ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 2 LIMIT 1
+  [1m[36mDeviceStatus Load (0.2ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 2 LIMIT 1
+Rendered devices/index.html.erb within layouts/application (101.7ms)
+Completed 200 OK in 169ms (Views: 114.3ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /device_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /device_problems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /device_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /audits.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /device_problem_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /groups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /location_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /disposable_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /devices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /disposables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /problem.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /practices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /locations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /audits.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /device_problem_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /cocoon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /device_problems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /disposables.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /devices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /device_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /device_statuses.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /disposable_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /locations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /location_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /groups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /practices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:13 -0500
+Served asset /problem.js - 304 Not Modified (0ms)
+
+
+Started GET "/devices?page=2" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+  Processing by DevicesController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mGroup Load (0.2ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `devices` [0m
+  [1m[35mDevice Load (6.4ms)[0m  SELECT `devices`.* FROM `devices` ORDER BY serial_number LIMIT 3 OFFSET 3
+  [1m[36mDeviceStatus Load (0.2ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 1 LIMIT 1[0m
+  [1m[35mDeviceType Load (0.1ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 1 LIMIT 1
+  [1m[36mDeviceStatus Load (0.2ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 1 LIMIT 1
+Rendered devices/index.html.erb within layouts/application (131.5ms)
+Completed 200 OK in 207ms (Views: 139.4ms | ActiveRecord: 14.9ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /audits.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /device_problem_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /device_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /device_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /device_problems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /devices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /groups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /disposables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /disposable_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /location_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /locations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /practices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /problem.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /cocoon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /audits.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /device_problems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /device_problem_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:17 -0500
+Served asset /device_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:18 -0500
+Served asset /disposables.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:18 -0500
+Served asset /devices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:18 -0500
+Served asset /disposable_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:18 -0500
+Served asset /device_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:18 -0500
+Served asset /groups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:18 -0500
+Served asset /location_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:18 -0500
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:18 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:18 -0500
+Served asset /problem.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:18 -0500
+Served asset /practices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:18 -0500
+Served asset /locations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:18 -0500
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:18 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/devices?page=3" for 127.0.0.1 at 2011-11-21 17:55:20 -0500
+  Processing by DevicesController#index as HTML
+  Parameters: {"page"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mGroup Load (0.2ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `devices` [0m
+  [1m[35mDevice Load (2.7ms)[0m  SELECT `devices`.* FROM `devices` ORDER BY serial_number LIMIT 3 OFFSET 6
+  [1m[36mDeviceStatus Load (0.1ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 3 LIMIT 1[0m
+  [1m[35mDeviceType Load (0.1ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 1 LIMIT 1
+Rendered devices/index.html.erb within layouts/application (110.4ms)
+Completed 200 OK in 181ms (Views: 122.3ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /audits.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /device_problem_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /device_problems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /device_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /device_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /devices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /disposables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /groups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /disposable_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /locations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /location_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /problem.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /practices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /cocoon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /audits.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /devices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /device_problem_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /device_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /device_problems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /device_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /groups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /disposable_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /disposables.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /location_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /locations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /problem.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /practices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:21 -0500
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/devices" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+  Processing by DevicesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mGroup Load (0.1ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `devices` [0m
+  [1m[35mDevice Load (0.2ms)[0m  SELECT `devices`.* FROM `devices` ORDER BY serial_number LIMIT 3 OFFSET 0
+  [1m[36mDeviceStatus Load (0.1ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 2 LIMIT 1[0m
+  [1m[35mDeviceType Load (0.2ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 2 LIMIT 1
+  [1m[36mDeviceStatus Load (0.2ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 2 LIMIT 1
+Rendered devices/index.html.erb within layouts/application (53.6ms)
+Completed 200 OK in 168ms (Views: 112.9ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /audits.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /device_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /devices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /device_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /device_problem_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /device_problems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /groups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /disposable_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /disposables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /location_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /practices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /locations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /problem.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /cocoon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /audits.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /device_problem_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /device_problems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /devices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /device_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /device_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /disposable_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /disposables.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /groups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /location_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /locations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /practices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:23 -0500
+Served asset /problem.js - 304 Not Modified (0ms)
+
+
+Started GET "/devices?page=2" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+  Processing by DevicesController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mGroup Load (0.2ms)[0m  SELECT `groups`.* FROM `groups` WHERE `groups`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `devices` [0m
+  [1m[35mDevice Load (0.2ms)[0m  SELECT `devices`.* FROM `devices` ORDER BY serial_number LIMIT 3 OFFSET 3
+  [1m[36mDeviceStatus Load (0.2ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 1 LIMIT 1[0m
+  [1m[35mDeviceType Load (0.2ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 1 LIMIT 1
+  [1m[36mDeviceStatus Load (0.2ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `device_statuses`.* FROM `device_statuses` WHERE `device_statuses`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `device_types`.* FROM `device_types` WHERE `device_types`.`id` = 1 LIMIT 1
+Rendered devices/index.html.erb within layouts/application (60.4ms)
+Completed 200 OK in 177ms (Views: 74.5ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /audits.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /devices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /device_problem_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /device_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /disposable_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /device_problems.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /device_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /location_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /disposables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /locations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /groups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /problem.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /practices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /audits.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /cocoon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /device_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /device_problems.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /device_problem_statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /devices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /disposable_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /device_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /locations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /disposables.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /location_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /groups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /practices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-21 17:55:59 -0500
+Served asset /problem.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (25.8ms)
+Completed 200 OK in 286ms (Views: 285.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audits.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /audits.css - 200 OK (35ms)
+
+
+Started GET "/assets/device_statuses.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /device_statuses.css - 200 OK (2ms)
+
+
+Started GET "/assets/device_problem_statuses.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /device_problem_statuses.css - 200 OK (15ms)
+
+
+Started GET "/assets/device_problems.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /device_problems.css - 200 OK (12ms)
+
+
+Started GET "/assets/devices.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /devices.css - 200 OK (2ms)
+
+
+Started GET "/assets/device_types.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /device_types.css - 200 OK (2ms)
+
+
+Started GET "/assets/disposable_types.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /disposable_types.css - 200 OK (7ms)
+
+
+Started GET "/assets/disposables.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /disposables.css - 200 OK (13ms)
+
+
+Started GET "/assets/groups.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /groups.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/location_types.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /location_types.css - 200 OK (15ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /locations.css - 200 OK (3ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /patients.css - 200 OK (2ms)
+
+
+Started GET "/assets/practices.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /practices.css - 200 OK (2ms)
+
+
+Started GET "/assets/problem.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /problem.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /scaffolds.css - 200 OK (7ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /session.css - 200 OK (12ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /cocoon.js - 200 OK (13ms)
+
+
+Started GET "/assets/audits.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /audits.js - 200 OK (11ms)
+
+
+Started GET "/assets/device_problem_statuses.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /device_problem_statuses.js - 200 OK (1ms)
+
+
+Started GET "/assets/device_problems.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /device_problems.js - 200 OK (2ms)
+
+
+Started GET "/assets/device_statuses.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /device_statuses.js - 200 OK (1ms)
+
+
+Started GET "/assets/device_types.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /device_types.js - 200 OK (2ms)
+
+
+Started GET "/assets/devices.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /devices.js - 200 OK (24ms)
+
+
+Started GET "/assets/disposable_types.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /disposable_types.js - 200 OK (5ms)
+
+
+Started GET "/assets/disposables.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /disposables.js - 200 OK (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /home.js - 200 OK (6ms)
+
+
+Started GET "/assets/groups.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /groups.js - 200 OK (25ms)
+
+
+Started GET "/assets/location_types.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /location_types.js - 200 OK (2ms)
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:41 -0500
+Served asset /locations.js - 200 OK (5ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:42 -0500
+Served asset /patients.js - 200 OK (2ms)
+
+
+Started GET "/assets/practices.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:42 -0500
+Served asset /practices.js - 200 OK (2ms)
+
+
+Started GET "/assets/problem.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:42 -0500
+Served asset /problem.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:42 -0500
+Served asset /users.js - 200 OK (12ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2011-11-22 03:07:42 -0500
+Served asset /session.js - 200 OK (1ms)

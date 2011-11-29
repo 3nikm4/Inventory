@@ -9,7 +9,7 @@ class Patient < ActiveRecord::Base
   validates :dob, :presence => true
   
   belongs_to :location
-  has_one :device_location
+  belongs_to :device_location
   
   #for use to make patient name easy
   def patient_full_name

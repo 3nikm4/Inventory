@@ -8,10 +8,27 @@ class ApplicationController < ActionController::Base
     redirect_to root_url
   end
   
-  private
-    
-    def current_user
-      @current_user ||= User.find(session[:user_id]) if session[:user_id]
+  protected
+
+    # throw an exception if not in ssl
+    def ensure_proper_protocol
+      if !ssl_allowed? && ssl_required? && !request.ssl? && !(request.get? || request.head?)
+        raise 'SSL required!' # either we have a bug somewhere or someone is playing with us.
+      else
+        super
+      end
     end
+
+  private
+    # returns true on production
+    def ssl_required?
+      return false if ENV['SSL_PROTOCOL'] == 'http'
+      super
+    end
+  
+  # helper method for using user object
+  def current_user
+    @current_user ||= User.find(session[:user_id]) if session[:user_id]
+  end
 
 end
