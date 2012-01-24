@@ -1,0 +1,43 @@
+<h1>Devices</h1>
+
+<table>
+  <tr class="lead">
+    <th>Status</th>
+    <th>Type</th>
+    <th>Serial Number</th>
+    <th>Comment</th>
+    <th>Imsi</th>
+    <th>Iccid</th>
+    <th></th>
+    <% if can? :update, @device %>
+      <th></th>
+    <% end %>
+    <% if can? :destroy, @device %>
+      <th></th>
+    <% end %>
+  </tr>
+
+<%= paginate @devices %>
+
+<% @devices.each do |device| %>
+  <tr bgcolor="#<%= cycle('c3c3c3','ffffff') %>">
+    <td><%= device.device_status.device_status %></td>
+    <td><%= device.device_type.device_type %></td>
+    <td><%= device.serial_number %></td>
+    <td><%= device.comment %></td>
+    <td><%= device.imsi %></td>
+    <td><%= device.iccid %></td>
+    <td><%= link_to 'Show', device %></td>
+    <% if can? :update, @device %>
+      <td><%= link_to 'Edit', edit_device_path(device) %></td>
+    <% end %>
+    <% if can? :destroy, @device %>
+      <td><%= link_to 'Destroy', device, confirm: 'Are you sure?', method: :delete %></td>
+    <% end %>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Device', new_device_path %>

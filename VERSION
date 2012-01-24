@@ -1,0 +1,44 @@
+1.0.2.4
+
+  - Added /reports app functions
+    - Reports Added
+      - location_summary "/reports/locations_summary/:id"
+      - all_locations_summary "/reports/all_locations_summary"
+      - problematic_devices "/reports/problematic_devices"
+      - devices_in_use "/reports/devices_in_use"
+  
+  - Added some functionality to device_location to allow for archival and marking active or inactive
+
+
+Revisions:
+
+  
+  1.0.2.3.2
+    - Seperated Patient Device Assignnment info in its own database table
+          Removed the information from device_locations
+      - Patient Assignment information contained in table structure below      
+        - patient_assignment
+          - id
+          - patient_id
+          - device_id
+          - monitor_start
+          - monitor_end
+    - Updated _device_location_fields.html.erb 
+      - Removed patient_id dropdown
+    - Created Patient Assignments views
+
+  1.0.2.3.1
+    - Device Location View
+      - with Type Counts
+
+  1.0.2.2
+    - Pagination for index views 
+      - Devices
+      - Practices
+    - /problems View functional
+
+  1.0.2.1
+    - Testing Features
+      - Form that tracks the different stages of testing
+      - View page that displays the testing stage information
+

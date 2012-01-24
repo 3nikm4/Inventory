@@ -1,0 +1,23 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: devices_development
+  username: root
+  password: toor
+  host: localhost
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: devices_testing
+  username: root
+  password: toor
+  host: localhost
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: devices_production
+  username: root
+  password: toor
+  host: localhost

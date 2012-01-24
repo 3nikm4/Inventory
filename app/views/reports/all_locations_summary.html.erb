@@ -1,0 +1,32 @@
+<h1>Locations Summary Report</h1>
+
+<table border='1'>
+  <tr>
+    <th>Practice</th>
+    <th>Name</th>
+    <th>Address</th>
+    <th>MCT Devices</th>
+    <th>MCT Par Level</th>
+    <th>Event Devices
+    <th>Event Par Level</th>
+    <th>Alert amount</th>
+    <th>Active</th>
+  </tr>
+
+<% @locations.each do |location| %>
+  <tr>
+    <td><%= location.practice.practice_name %></td>
+    <td><%= location.location_name %></td>
+    <td>
+      <%= location.location_street1 %> <%= location.location_street2 %><br />
+      <%= location.location_city %>, <%= location.location_state %> <%= location.location_zip %>
+    </td>
+    <td><%= location.mct_count %></td>
+    <td><%= location.par_level_mct %></td>
+    <td><%= location.event_count %></td>
+    <td><%= location.par_level_event %></td>
+    <td><%= location.alert_amount %></td>
+    <td><%= location.active %></td>
+  </tr>
+<% end %>
+</table>
