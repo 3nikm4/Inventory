@@ -5,7 +5,6 @@ class Device < ActiveRecord::Base
 
   belongs_to :device_type
   belongs_to :device_status
-<<<<<<< HEAD
   has_many :device_test, :dependent => :destroy
   has_many :device_location, :dependent => :destroy
   has_many :device_problem_statuses, :through => :device_problem
@@ -15,12 +14,4 @@ class Device < ActiveRecord::Base
   has_many :patient_assignments, :through => :patients
 
   accepts_nested_attributes_for :device_problems, :device_location, :device_test, :allow_destroy => true
-=======
-  has_one :device_location
-  has_many :device_problem_statuses, :through => :device_problem
-  has_many :device_problems, :order => 'created_at DESC', :dependent => :destroy
-  has_many :audits, :dependent => :destroy
-
-  accepts_nested_attributes_for :device_problems, :device_location, :allow_destroy => true,
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
 end

@@ -2,16 +2,10 @@
 <html>
 <head>
   <title>Inventory</title>
-<<<<<<< HEAD
   <%= stylesheet_link_tag "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
   <%= yield :head %>
-=======
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
 </head>
 <body>
 <div id="container">
@@ -30,10 +24,7 @@
       <%= link_to "Devices", devices_path %>&nbsp;|
       <%= link_to "Disposables", disposables_path %>&nbsp;|
       <%= link_to "Patients", patients_path %>&nbsp;|
-<<<<<<< HEAD
       <%= link_to "Patient Assignments", patient_assignments_path %>&nbsp;|
-=======
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
       <%= link_to "Practices", practices_path %>
     <% end %>
     <% if current_user %>

@@ -49,7 +49,6 @@
       <%= f.label :active %><br />
       <%= f.check_box :active %>
     </p>
-<<<<<<< HEAD
 
     <% f.fields_for :location_alert_contacts do |builder| %>
       <%= render :partial => "location_alert_contacts", :f => builder %>
@@ -57,10 +56,6 @@
 
     <p>
       <%= link_to_add_association "Add Contact", f, :location_alert_contacts %> | 
-=======
-    <p>
-      <%= link_to_add_association "Add Contact", f, :location_alert_contacts %>
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
     </p>
     <%= link_to_remove_association "Remove Location", f %>
   </fieldset>

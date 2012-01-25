@@ -37,11 +37,8 @@ class LocationsController < ApplicationController
   # GET /locations/1/edit
   def edit
     @location = Location.find(params[:id])
-<<<<<<< HEAD
     @location_patients = @location.patients
     @location_devices = @location.devices
-=======
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   end
 
   # POST /locations
@@ -87,7 +84,6 @@ class LocationsController < ApplicationController
       format.json { head :ok }
     end
   end
-<<<<<<< HEAD
 
   # GET /devicelocations/1
   # location_id
@@ -100,6 +96,4 @@ class LocationsController < ApplicationController
 
 
 
-=======
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
 end

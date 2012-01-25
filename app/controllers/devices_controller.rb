@@ -4,13 +4,8 @@ class DevicesController < ApplicationController
   # GET /devices
   # GET /devices.json
   def index
-<<<<<<< HEAD
     @devices = Device.order("serial_number").page(params[:page]).per(25)
     
-=======
-    @devices = Device.order("serial_number").page(params[:page]).per(20)
-
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @devices }
@@ -87,7 +82,6 @@ class DevicesController < ApplicationController
       format.json { head :ok }
     end
   end
-<<<<<<< HEAD
   
   # GET /devices/global
   def global
@@ -99,6 +93,4 @@ class DevicesController < ApplicationController
   def location_selection
     @selection = DeviceLocations.find( :all, :conditions => [" location_id = ?", params[:id]] )
   end
-=======
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
 end

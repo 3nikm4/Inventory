@@ -4,11 +4,7 @@ class PracticesController < ApplicationController
   # GET /practices
   # GET /practices.json
   def index
-<<<<<<< HEAD
     @practices = Practice.order("practice_name").page(params[:page]).per(25)
-=======
-    @practices = Practice.all
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
 
     respond_to do |format|
       format.html # index.html.erb

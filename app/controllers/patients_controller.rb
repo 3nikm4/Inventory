@@ -4,12 +4,8 @@ class PatientsController < ApplicationController
   # GET /patients
   # GET /patients.json
   def index
-<<<<<<< HEAD
     @patients = Patient.order("last_name ASC")
     #joins(:locations).order("location_name ASC, patient_full_name ASC")
-=======
-    @patients = Patient.all
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
 
     respond_to do |format|
       format.html # index.html.erb

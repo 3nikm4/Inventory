@@ -11,11 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20120116173350) do
-=======
-ActiveRecord::Schema.define(:version => 20111113195604) do
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
 
   create_table "audits", :force => true do |t|
     t.integer  "user_id"
@@ -26,23 +22,12 @@ ActiveRecord::Schema.define(:version => 20111113195604) do
     t.datetime "updated_at"
   end
 
-<<<<<<< HEAD
   create_table "device_locations", :force => true do |t|
     t.integer  "location_id"
     t.integer  "device_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "active"
-=======
-  create_table "device_locations", :id => false, :force => true do |t|
-    t.integer  "location_id"
-    t.integer  "device_id"
-    t.integer  "patient_id"
-    t.date     "active_on"
-    t.date     "finished_on"
-    t.datetime "created_at"
-    t.datetime "updated_at"
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   end
 
   create_table "device_problem_statuses", :force => true do |t|
@@ -66,7 +51,6 @@ ActiveRecord::Schema.define(:version => 20111113195604) do
     t.datetime "updated_at"
   end
 
-<<<<<<< HEAD
   create_table "device_tests", :force => true do |t|
     t.integer  "device_id"
     t.boolean  "tom24"
@@ -77,8 +61,6 @@ ActiveRecord::Schema.define(:version => 20111113195604) do
     t.datetime "updated_at"
   end
 
-=======
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   create_table "device_types", :force => true do |t|
     t.string   "device_type"
     t.datetime "created_at"
@@ -150,7 +132,6 @@ ActiveRecord::Schema.define(:version => 20111113195604) do
     t.datetime "updated_at"
   end
 
-<<<<<<< HEAD
   create_table "patient_assignments", :force => true do |t|
     t.integer  "patient_id"
     t.integer  "device_id"
@@ -160,8 +141,6 @@ ActiveRecord::Schema.define(:version => 20111113195604) do
     t.datetime "updated_at"
   end
 
-=======
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   create_table "patients", :force => true do |t|
     t.integer  "location_id"
     t.string   "first_name"
@@ -174,10 +153,7 @@ ActiveRecord::Schema.define(:version => 20111113195604) do
     t.date     "dob"
     t.datetime "created_at"
     t.datetime "updated_at"
-<<<<<<< HEAD
     t.boolean  "active"
-=======
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   end
 
   create_table "practices", :force => true do |t|
@@ -186,7 +162,6 @@ ActiveRecord::Schema.define(:version => 20111113195604) do
     t.datetime "updated_at"
   end
 
-<<<<<<< HEAD
   create_table "reports", :force => true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -196,22 +171,13 @@ ActiveRecord::Schema.define(:version => 20111113195604) do
     t.integer  "group_id"
     t.string   "username"
     t.string   "password_hash"
-=======
-  create_table "users", :force => true do |t|
-    t.integer  "group_id"
-    t.string   "username"
-    t.string   "password"
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
     t.string   "first_name"
     t.string   "last_name"
     t.string   "email"
     t.boolean  "active"
     t.datetime "created_at"
     t.datetime "updated_at"
-<<<<<<< HEAD
     t.string   "password_salt"
-=======
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   end
 
 end

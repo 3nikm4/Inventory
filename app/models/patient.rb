@@ -9,25 +9,18 @@ class Patient < ActiveRecord::Base
   validates :dob, :presence => true
   
   belongs_to :location
-<<<<<<< HEAD
   has_many :device_locations
   has_many :patient_assignments
   
   accepts_nested_attributes_for :patient_assignments, :location
-=======
-  belongs_to :device_location
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   
   #for use to make patient name easy
   def patient_full_name
     first_name + " " + last_name
   end
-<<<<<<< HEAD
 
   #used in patient assignment dropdown
   def full_name_location
     first_name + " " + last_name + " - " + location.location_name
   end
-=======
->>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
 end
