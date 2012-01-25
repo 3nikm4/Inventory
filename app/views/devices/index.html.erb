@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>Devices</h1>
 
 <table>
@@ -5,6 +6,15 @@
     <th>Status</th>
     <th>Type</th>
     <th>Serial Number</th>
+=======
+<h1>Listing devices</h1>
+
+<table>
+  <tr>
+    <th>Device status</th>
+    <th>Device type</th>
+    <th>Serial number</th>
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
     <th>Comment</th>
     <th>Imsi</th>
     <th>Iccid</th>
@@ -18,9 +28,14 @@
   </tr>
 
 <%= paginate @devices %>
+<<<<<<< HEAD
 
 <% @devices.each do |device| %>
   <tr bgcolor="#<%= cycle('c3c3c3','ffffff') %>">
+=======
+<% @devices.each do |device| %>
+  <tr bgcolor="#<%= cycle("FFFFFF","CCCCCC") %>">
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
     <td><%= device.device_status.device_status %></td>
     <td><%= device.device_type.device_type %></td>
     <td><%= device.serial_number %></td>

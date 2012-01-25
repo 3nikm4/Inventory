@@ -41,6 +41,7 @@ module Inventory
 
     # Enable the asset pipeline
     config.assets.enabled = true
+<<<<<<< HEAD
 
     # Enable auto compile
     config.assets.compile = true
@@ -51,6 +52,12 @@ module Inventory
     # enable pre compile
     config.assets.precompile = true
 
+=======
+    
+    # Enable auto compile of assets
+    config.assets.compile = true
+
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
   end

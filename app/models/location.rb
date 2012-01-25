@@ -13,6 +13,7 @@ class Location < ActiveRecord::Base
   belongs_to :location_type
   belongs_to :practice
   has_many :location_alert_contacts, :dependent => :destroy
+<<<<<<< HEAD
   has_many :location_assignments
   has_many :device_locations
   has_many :devices, :through => :device_locations
@@ -61,4 +62,9 @@ class Location < ActiveRecord::Base
     event_devices.count
   end
 
+=======
+  has_many :device_locations
+  
+  accepts_nested_attributes_for :device_locations, :location_type, :practice, :location_alert_contacts
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
 end

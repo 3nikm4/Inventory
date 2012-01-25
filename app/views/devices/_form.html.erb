@@ -39,11 +39,15 @@
     <%= f.label :comment %><br />
     <%= f.text_area :comment, :rows => 3 %>
   </div>
+<<<<<<< HEAD
 
   <%= f.fields_for :device_test do |builder| %>
      <%= render "device_test_fields", :f => builder %>
   <% end %>
 
+=======
+ 
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   <%= f.fields_for :device_location do |builder| %>
      <%= render "device_location_fields", :f => builder %>
   <% end %>
@@ -53,7 +57,10 @@
   <% end %>
 
   <p>
+<<<<<<< HEAD
     <%= link_to_add_association "Add Test", f, :device_test %> |   
+=======
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
     <%= link_to_add_association "Add Problem", f, :device_problems %> | 
     <%= link_to_add_association "Add Location", f, :device_location %>
   </p>

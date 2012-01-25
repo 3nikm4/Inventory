@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
 rails.png: rails.png
 application.js: application.js
 application.css: application.css
+=======
+rails.png: rails-e4b51606cd77fda2615e7439907bfc92.png
+application.js: application-eef417870c344f6565adc1170ac85c8b.js
+application.css: application-00960e5186894b532975562d59176a6a.css
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408

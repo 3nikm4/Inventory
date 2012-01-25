@@ -13,19 +13,28 @@
 
   <div class="field">
     <%= f.label :location_id, "Location" %><br />
+<<<<<<< HEAD
       <%= f.collection_select(:location_id, Location.order("location_name ASC"), :id, :location_name, :prompt => true) %>
   </div>
   <div class="field">
     <%= f.label :last_name %><br />
     <%= f.text_field :last_name %>
+=======
+      <%= f.collection_select(:location_id, Location.all, :id, :location_name, :prompt => true) %>
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   </div>
   <div class="field">
     <%= f.label :first_name %><br />
     <%= f.text_field :first_name %>
   </div>
   <div class="field">
+<<<<<<< HEAD
     <%= f.label :dob %><br />
     <%= f.date_select :dob, :start_year => 1900 %>
+=======
+    <%= f.label :last_name %><br />
+    <%= f.text_field :last_name %>
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   </div>
   <div class="field">
     <%= f.label :address_street1 %><br />
@@ -47,6 +56,13 @@
     <%= f.label :address_zip %><br />
     <%= f.text_field :address_zip %>
   </div>
+<<<<<<< HEAD
+=======
+  <div class="field">
+    <%= f.label :dob %><br />
+    <%= f.date_select :dob, :start_year => 1900 %>
+  </div>
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   <div class="actions">
     <%= f.submit %>
   </div>

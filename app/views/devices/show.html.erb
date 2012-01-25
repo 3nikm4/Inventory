@@ -1,15 +1,30 @@
+<<<<<<< HEAD
 <p>
   <b>Device status:</b>
+=======
+<h1>Device: <%= @device.serial_number %></h1>
+
+<p>
+  <b>Status:</b>
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   <%= @device.device_status.device_status %>
 </p>
 
 <p>
+<<<<<<< HEAD
   <b>Device type:</b>
+=======
+  <b>Type:</b>
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   <%= @device.device_type.device_type %>
 </p>
 
 <p>
+<<<<<<< HEAD
   <b>Serial number:</b>
+=======
+  <b>Serial Number:</b>
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   <%= @device.serial_number %>
 </p>
 
@@ -19,11 +34,16 @@
 </p>
 
 <p>
+<<<<<<< HEAD
   <b>Imsi:</b>
+=======
+  <b>IMSI:</b>
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   <%= @device.imsi %>
 </p>
 
 <p>
+<<<<<<< HEAD
   <b>Iccid:</b>
   <%= @device.iccid %>
 </p>
@@ -36,15 +56,27 @@
 <% if @device.device_problems %>
   <%= render @device.device_problems %>
 <% end %>
+=======
+  <b>ICCID:</b>
+  <%= @device.iccid %>
+</p>
+
+<%= render @device.device_location %>
+<%= render @device.device_problems %>
+
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
 
 <% if current_user %>
   <% if can? :update, @device %>
     <%= link_to 'Edit', edit_device_path(@device) %> |
   <% end %>
 <% end %>
+<<<<<<< HEAD
 <% if current_user %>
   <% if can? :create, @device %>
     <%= link_to 'New Device', new_device_path %> |
   <% end %>
 <% end %>
+=======
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
 <%= link_to 'Back', devices_path %>

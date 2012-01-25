@@ -1,6 +1,14 @@
 Inventory::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
   
+<<<<<<< HEAD
+=======
+  # rack ssl
+#  require 'rack/ssl'
+#  config.middleware.use Rack::SSL
+#  config.middleware.insert_before ActionDispatch::Cookies, Rack::SSL
+
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
   # Code is not reloaded between requests
   config.cache_classes = true
 
@@ -28,7 +36,11 @@ Inventory::Application.configure do
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for nginx
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
+<<<<<<< HEAD
   config.force_ssl = false
+=======
+  #config.force_ssl = true
+>>>>>>> 53a75de68dd6fca626b398c21d1923a2b7056408
 
   # See everything in the log (default is :info)
   # config.log_level = :debug
