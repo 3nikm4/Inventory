@@ -14444,3 +14444,348 @@ Started GET "/" for 192.168.1.30 at 2012-01-20 21:29:18 -0500
   Processing by HomeController#index as HTML
 Rendered home/index.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-26 10:59:42 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (49.8ms)
+Completed 200 OK in 381ms (Views: 379.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-26 10:59:42 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (45.3ms)
+Completed 200 OK in 409ms (Views: 407.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/log_in" for 127.0.0.1 at 2012-01-26 10:59:45 -0500
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 29ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-01-26 11:01:54 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HGkLZXxRBC6yl87JxayoTuq6qmMDvqkgtR8EcmQSfLg=", "username"=>"russellpruitt", "password"=>"[FILTERED]", "commit"=>"Log in"}
+Redirected to http://localhost/
+Completed 302 Found in 198ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-26 11:01:54 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 232ms (Views: 230.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/reports/all_locations_summary" for 127.0.0.1 at 2012-01-26 11:01:59 -0500
+  Processing by ReportsController#all_locations_summary as HTML
+Rendered reports/all_locations_summary.html.erb (174.8ms)
+Completed 500 Internal Server Error in 202ms
+
+ActionView::Template::Error (undefined method `location' for nil:NilClass):
+    21:       <%= location.location_street1 %> <%= location.location_street2 %><br />
+    22:       <%= location.location_city %>, <%= location.location_state %> <%= location.location_zip %>
+    23:     </td>
+    24:     <td><%= location.mct_count %></td>
+    25:     <td><%= location.par_level_mct %></td>
+    26:     <td><%= location.event_count %></td>
+    27:     <td><%= location.par_level_event %></td>
+  app/models/location.rb:29:in `active_devices'
+  app/models/location.rb:49:in `mct_devices'
+  app/models/location.rb:57:in `mct_count'
+  app/views/reports/all_locations_summary.html.erb:24:in `block in _app_views_reports_all_locations_summary_html_erb___110666966_94909890'
+  app/views/reports/all_locations_summary.html.erb:16:in `_app_views_reports_all_locations_summary_html_erb___110666966_94909890'
+
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/reports/all_locations_summary" for 127.0.0.1 at 2012-01-26 11:09:06 -0500
+  Processing by ReportsController#all_locations_summary as HTML
+Rendered reports/all_locations_summary.html.erb (274.5ms)
+Completed 500 Internal Server Error in 452ms
+
+ActionView::Template::Error (undefined method `location' for nil:NilClass):
+    21:       <%= location.location_street1 %> <%= location.location_street2 %><br />
+    22:       <%= location.location_city %>, <%= location.location_state %> <%= location.location_zip %>
+    23:     </td>
+    24:     <td><%= location.mct_count %></td>
+    25:     <td><%= location.par_level_mct %></td>
+    26:     <td><%= location.event_count %></td>
+    27:     <td><%= location.par_level_event %></td>
+  app/models/location.rb:29:in `active_devices'
+  app/models/location.rb:49:in `mct_devices'
+  app/models/location.rb:57:in `mct_count'
+  app/views/reports/all_locations_summary.html.erb:24:in `block in _app_views_reports_all_locations_summary_html_erb__729066497_100618070'
+  app/views/reports/all_locations_summary.html.erb:16:in `_app_views_reports_all_locations_summary_html_erb__729066497_100618070'
+
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.9ms)
+
+
+Started GET "/reports/all_locations_summary" for 127.0.0.1 at 2012-01-26 11:10:23 -0500
+  Processing by ReportsController#all_locations_summary as HTML
+Rendered reports/all_locations_summary.html.erb (5.6ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `location' for nil:NilClass):
+    21:       <%= location.location_street1 %> <%= location.location_street2 %><br />
+    22:       <%= location.location_city %>, <%= location.location_state %> <%= location.location_zip %>
+    23:     </td>
+    24:     <td><%= location.mct_count %></td>
+    25:     <td><%= location.par_level_mct %></td>
+    26:     <td><%= location.event_count %></td>
+    27:     <td><%= location.par_level_event %></td>
+  app/models/location.rb:29:in `active_devices'
+  app/models/location.rb:49:in `mct_devices'
+  app/models/location.rb:57:in `mct_count'
+  app/views/reports/all_locations_summary.html.erb:24:in `block in _app_views_reports_all_locations_summary_html_erb__729066497_100618070'
+  app/views/reports/all_locations_summary.html.erb:16:in `_app_views_reports_all_locations_summary_html_erb__729066497_100618070'
+
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (48.2ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (51.6ms)
+
+
+Started GET "/reports/all_locations_summary" for 127.0.0.1 at 2012-01-26 11:13:01 -0500
+  Processing by ReportsController#all_locations_summary as HTML
+Rendered reports/all_locations_summary.html.erb (295.8ms)
+Completed 500 Internal Server Error in 465ms
+
+ActionView::Template::Error (undefined method `location' for nil:NilClass):
+    21:       <%= location.location_street1 %> <%= location.location_street2 %><br />
+    22:       <%= location.location_city %>, <%= location.location_state %> <%= location.location_zip %>
+    23:     </td>
+    24:     <td><%= location.mct_count %></td>
+    25:     <td><%= location.par_level_mct %></td>
+    26:     <td><%= location.event_count %></td>
+    27:     <td><%= location.par_level_event %></td>
+  app/models/location.rb:29:in `active_devices'
+  app/models/location.rb:49:in `mct_devices'
+  app/models/location.rb:57:in `mct_count'
+  app/views/reports/all_locations_summary.html.erb:24:in `block in _app_views_reports_all_locations_summary_html_erb__692710989_101758100'
+  app/views/reports/all_locations_summary.html.erb:16:in `_app_views_reports_all_locations_summary_html_erb__692710989_101758100'
+
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.5ms)
+
+
+Started GET "/reports/all_locations_summary" for 127.0.0.1 at 2012-01-26 11:29:19 -0500
+  Processing by ReportsController#all_locations_summary as HTML
+Rendered reports/all_locations_summary.html.erb (298.0ms)
+Completed 500 Internal Server Error in 473ms
+
+ActionView::Template::Error (undefined method `location' for nil:NilClass):
+    21:       <%= location.location_street1 %> <%= location.location_street2 %><br />
+    22:       <%= location.location_city %>, <%= location.location_state %> <%= location.location_zip %>
+    23:     </td>
+    24:     <td><%= location.mct_count %></td>
+    25:     <td><%= location.par_level_mct %></td>
+    26:     <td><%= location.event_count %></td>
+    27:     <td><%= location.par_level_event %></td>
+  app/models/location.rb:29:in `active_devices'
+  app/models/location.rb:49:in `mct_devices'
+  app/models/location.rb:57:in `mct_count'
+  app/views/reports/all_locations_summary.html.erb:24:in `block in _app_views_reports_all_locations_summary_html_erb___1028840092_96252310'
+  app/views/reports/all_locations_summary.html.erb:16:in `_app_views_reports_all_locations_summary_html_erb___1028840092_96252310'
+
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.7ms)
+
+
+Started GET "/reports/all_locations_summary" for 127.0.0.1 at 2012-01-26 12:28:16 -0500
+  Processing by ReportsController#all_locations_summary as HTML
+Rendered reports/all_locations_summary.html.erb (304.3ms)
+Completed 500 Internal Server Error in 484ms
+
+ActionView::Template::Error (undefined method `location' for nil:NilClass):
+    21:       <%= location.location_street1 %> <%= location.location_street2 %><br />
+    22:       <%= location.location_city %>, <%= location.location_state %> <%= location.location_zip %>
+    23:     </td>
+    24:     <td><%= location.mct_count %></td>
+    25:     <td><%= location.par_level_mct %></td>
+    26:     <td><%= location.event_count %></td>
+    27:     <td><%= location.par_level_event %></td>
+  app/models/location.rb:53:in `mct_count'
+  app/views/reports/all_locations_summary.html.erb:24:in `block in _app_views_reports_all_locations_summary_html_erb__618320020_92186710'
+  app/views/reports/all_locations_summary.html.erb:16:in `_app_views_reports_all_locations_summary_html_erb__618320020_92186710'
+
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.1ms)
+
+
+Started GET "/reports/all_locations_summary" for 127.0.0.1 at 2012-01-26 12:31:50 -0500
+  Processing by ReportsController#all_locations_summary as HTML
+Rendered reports/all_locations_summary.html.erb (276.1ms)
+Completed 500 Internal Server Error in 444ms
+
+ActionView::Template::Error (undefined method `location' for nil:NilClass):
+    21:       <%= location.location_street1 %> <%= location.location_street2 %><br />
+    22:       <%= location.location_city %>, <%= location.location_state %> <%= location.location_zip %>
+    23:     </td>
+    24:     <td><%= location.mct_count %></td>
+    25:     <td><%= location.par_level_mct %></td>
+    26:     <td><%= location.event_count %></td>
+    27:     <td><%= location.par_level_event %></td>
+  app/models/location.rb:53:in `mct_count'
+  app/views/reports/all_locations_summary.html.erb:24:in `block in _app_views_reports_all_locations_summary_html_erb__538325750_93648990'
+  app/views/reports/all_locations_summary.html.erb:16:in `_app_views_reports_all_locations_summary_html_erb__538325750_93648990'
+
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.8ms)
+
+
+Started GET "/reports/all_locations_summary" for 127.0.0.1 at 2012-01-26 12:32:55 -0500
+  Processing by ReportsController#all_locations_summary as HTML
+Rendered reports/all_locations_summary.html.erb (287.3ms)
+Completed 500 Internal Server Error in 455ms
+
+ActionView::Template::Error (undefined method `location' for nil:NilClass):
+    23:     </td>
+    24:     <td><%= location.mct_count %></td>
+    25:     <td><%= location.par_level_mct %></td>
+    26:     <td><%= location.event_count %></td>
+    27:     <td><%= location.par_level_event %></td>
+    28:     <td><%= location.alert_amount %></td>
+    29:     <td><%= location.active %></td>
+  app/models/location.rb:59:in `event_count'
+  app/views/reports/all_locations_summary.html.erb:26:in `block in _app_views_reports_all_locations_summary_html_erb__205638440_100368450'
+  app/views/reports/all_locations_summary.html.erb:16:in `_app_views_reports_all_locations_summary_html_erb__205638440_100368450'
+
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.4ms)
+
+
+Started GET "/reports/all_locations_summary" for 127.0.0.1 at 2012-01-26 12:36:01 -0500
+  Processing by ReportsController#all_locations_summary as HTML
+Rendered reports/all_locations_summary.html.erb (454.8ms)
+Completed 500 Internal Server Error in 627ms
+
+ActionView::Template::Error (undefined method `location' for nil:NilClass):
+    23:     </td>
+    24:     <td><%= location.mct_count %></td>
+    25:     <td><%= location.par_level_mct %></td>
+    26:     <td><%= location.event_count %></td>
+    27:     <td><%= location.par_level_event %></td>
+    28:     <td><%= location.alert_amount %></td>
+    29:     <td><%= location.active %></td>
+  app/models/location.rb:62:in `event_count'
+  app/views/reports/all_locations_summary.html.erb:26:in `block in _app_views_reports_all_locations_summary_html_erb___335498181_93535350'
+  app/views/reports/all_locations_summary.html.erb:16:in `_app_views_reports_all_locations_summary_html_erb___335498181_93535350'
+
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.4ms)
+
+
+Started GET "/reports/all_locations_summary\" for 127.0.0.1 at 2012-01-26 12:36:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/reports/all_locations_summary\\"):
+  
+
+Rendered /home/russellpruitt/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (44.2ms)
+
+
+Started GET "/reports/all_locations_summary" for 127.0.0.1 at 2012-01-26 12:36:57 -0500
+  Processing by ReportsController#all_locations_summary as HTML
+Rendered reports/all_locations_summary.html.erb (438.8ms)
+Completed 200 OK in 724ms (Views: 550.8ms | ActiveRecord: 36.2ms)
+
+
+Started GET "/devices" for 127.0.0.1 at 2012-01-26 13:36:15 -0500
+  Processing by DevicesController#index as HTML
+Rendered devices/index.html.erb within layouts/application (216.7ms)
+Completed 200 OK in 297ms (Views: 206.3ms | ActiveRecord: 25.2ms)
+
+
+Started GET "/devices/787/edit" for 127.0.0.1 at 2012-01-26 13:36:18 -0500
+  Processing by DevicesController#edit as HTML
+  Parameters: {"id"=>"787"}
+Rendered devices/_device_test_fields.html.erb (2.1ms)
+Rendered devices/_device_problem_fields.html.erb (7.7ms)
+Rendered devices/_device_location_fields.html.erb (9.6ms)
+Rendered devices/_form.html.erb (58.6ms)
+Rendered devices/edit.html.erb within layouts/application (60.5ms)
+Completed 200 OK in 79ms (Views: 62.6ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/devices/786/edit" for 127.0.0.1 at 2012-01-26 13:36:22 -0500
+  Processing by DevicesController#edit as HTML
+  Parameters: {"id"=>"786"}
+Rendered devices/_device_test_fields.html.erb (56.4ms)
+Rendered devices/_device_problem_fields.html.erb (2.3ms)
+Rendered devices/_device_location_fields.html.erb (5.3ms)
+Rendered devices/_form.html.erb (87.9ms)
+Rendered devices/edit.html.erb within layouts/application (89.0ms)
+Completed 200 OK in 101ms (Views: 81.4ms | ActiveRecord: 11.9ms)
+
+
+Started GET "/devices/785/edit" for 127.0.0.1 at 2012-01-26 13:36:28 -0500
+  Processing by DevicesController#edit as HTML
+  Parameters: {"id"=>"785"}
+Rendered devices/_device_test_fields.html.erb (1.6ms)
+Rendered devices/_device_problem_fields.html.erb (2.0ms)
+Rendered devices/_device_location_fields.html.erb (4.9ms)
+Rendered devices/_form.html.erb (22.4ms)
+Rendered devices/edit.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 40ms (Views: 23.6ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/devices?page=33" for 127.0.0.1 at 2012-01-26 13:36:34 -0500
+  Processing by DevicesController#index as HTML
+  Parameters: {"page"=>"33"}
+Rendered devices/index.html.erb within layouts/application (129.9ms)
+Completed 200 OK in 143ms (Views: 122.2ms | ActiveRecord: 12.2ms)
+
+
+Started GET "/devices/22/edit" for 127.0.0.1 at 2012-01-26 13:36:37 -0500
+  Processing by DevicesController#edit as HTML
+  Parameters: {"id"=>"22"}
+Rendered devices/_device_test_fields.html.erb (1.5ms)
+Rendered devices/_device_problem_fields.html.erb (2.1ms)
+Rendered devices/_device_location_fields.html.erb (5.7ms)
+Rendered devices/_form.html.erb (32.4ms)
+Rendered devices/edit.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 46ms (Views: 33.4ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/devices/688/edit" for 127.0.0.1 at 2012-01-26 13:36:41 -0500
+  Processing by DevicesController#edit as HTML
+  Parameters: {"id"=>"688"}
+Rendered devices/_device_location_fields.html.erb (6.2ms)
+Rendered devices/_device_test_fields.html.erb (1.4ms)
+Rendered devices/_device_problem_fields.html.erb (55.7ms)
+Rendered devices/_device_location_fields.html.erb (3.5ms)
+Rendered devices/_form.html.erb (92.2ms)
+Rendered devices/edit.html.erb within layouts/application (93.1ms)
+Completed 200 OK in 107ms (Views: 88.4ms | ActiveRecord: 9.0ms)
+
+
+Started PUT "/devices/688" for 127.0.0.1 at 2012-01-26 13:36:50 -0500
+  Processing by DevicesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HGkLZXxRBC6yl87JxayoTuq6qmMDvqkgtR8EcmQSfLg=", "device"=>{"device_type_id"=>"2", "device_status_id"=>"4", "serial_number"=>"301753", "asset_tag"=>"", "imsi"=>"", "iccid"=>"8901640110238119170F", "comment"=>"", "device_location_attributes"=>{"0"=>{"location_id"=>"20", "active"=>"1", "_destroy"=>"", "id"=>"238"}}}, "commit"=>"Update Device", "id"=>"688"}
+Redirected to http://localhost/devices/688
+Completed 302 Found in 190ms
+
+
+Started GET "/devices/688" for 127.0.0.1 at 2012-01-26 13:36:50 -0500
+  Processing by DevicesController#show as HTML
+  Parameters: {"id"=>"688"}
+Rendered device_locations/_device_location.html.erb (1.3ms)
+Rendered collection (0.0ms)
+Rendered collection (0.0ms)
+Rendered devices/show.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 25ms (Views: 11.0ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/reports/all_locations_summary" for 127.0.0.1 at 2012-01-26 13:36:58 -0500
+  Processing by ReportsController#all_locations_summary as HTML
+Rendered reports/all_locations_summary.html.erb (99.3ms)
+Completed 200 OK in 101ms (Views: 75.8ms | ActiveRecord: 25.2ms)

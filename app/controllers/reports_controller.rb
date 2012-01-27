@@ -13,7 +13,7 @@ class ReportsController < ApplicationController
   
   # reports/devices_in_use
   def devices_in_use
-    @devices = Device.where("device_status_id = ?", 2)
+    @devices = Device.where( :device_status_id => 2)
   end
   
   # reports/location_status/:id

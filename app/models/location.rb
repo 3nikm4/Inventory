@@ -21,12 +21,8 @@ class Location < ActiveRecord::Base
   
   accepts_nested_attributes_for :location_alert_contacts, :patient_assignments
   
-  def active_device_locations
-    device_locations.where( :active => 1 )
-  end
-  
   def active_devices
-    device_locations.first.location.devices
+    device_locations.where( :active => TRUE ).first.location.devices
   end
 
   def active_patients
@@ -34,31 +30,39 @@ class Location < ActiveRecord::Base
   end
   
   def devices_count
-    active_devices.count
+    device_locations.where( :active => TRUE ).first.location.devices.count
   end
   
   def get_patients
-    patients.all
+    device_locations.where( :active => TRUE ).first.location.patients.all
   end
   
   def get_devices
-    active_devices.all
+    device_locations.where( :active => TRUE ).first.location.devices.all
   end
 
   def mct_devices
-    active_devices.where( :device_type_id => 1 )
+    device_locations.where( :active => TRUE ).first.location.devices.where( :device_type_id => 1 )
   end
-  
-  def event_devices
-    active_devices.where( :device_type_id => 2 )
+
+  def event_devices(_locid)
+    device_locations.where( :active => TRUE ).first.location.devices.where( :device_type_id => 2 )
   end
   
   def mct_count
-    mct_devices.count
+    if !device_locations.empty?
+      device_locations.first.location.devices.where( "device_type_id = 1 AND `device_locations`.`active` = 1" ).count
+    else
+      return 0
+    end
   end
   
   def event_count
-    event_devices.count
+    if !device_locations.empty?
+      device_locations.first.location.devices.where( "device_type_id = 2 AND `device_locations`.`active` = 1" ).count
+    else
+      return 0
+    end
   end
 
 end
