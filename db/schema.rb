@@ -11,13 +11,26 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120213172728) do
+ActiveRecord::Schema.define(:version => 20120213200829) do
 
   create_table "audits", :force => true do |t|
     t.integer  "user_id"
     t.integer  "device_id"
     t.string   "action"
     t.string   "webpage"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "device_batteries", :force => true do |t|
+    t.integer  "device_id"
+    t.string   "device_battery_serial"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "device_carriers", :force => true do |t|
+    t.string   "device_carrier"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -79,6 +92,7 @@ ActiveRecord::Schema.define(:version => 20120213172728) do
     t.string   "iccid"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "device_carrier_id"
   end
 
   create_table "disposable_types", :force => true do |t|

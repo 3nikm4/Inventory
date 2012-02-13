@@ -1,6 +1,10 @@
 Inventory::Application.routes.draw do
 
 
+  resources :device_batteries
+
+  resources :device_carriers
+
   post "dynamic_devices/:id" => "patient_assignments#dynamic_devices", :as => "dynamic_devices"
   post "dynamic_patients/:id" => "patient_assignments#dynamic_patients", :as => "dynamic_patients"
 
