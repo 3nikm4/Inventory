@@ -20,6 +20,10 @@
     <%= f.collection_select(:device_status_id, DeviceStatus.all, :id, :device_status, :prompt => true) %>
   </div>
   <div class="field">
+    <%= f.label :device_carried_id %><br />
+    <%= f.collection_select(:device_carrier_id, DeviceCarrier.all, :id, :device_carrier, :prompt => true) %>
+  </div>
+  <div class="field">
     <%= f.label :serial_number %><br />
     <%= f.text_field :serial_number %>
   </div>
@@ -40,22 +44,27 @@
     <%= f.text_area :comment, :rows => 3 %>
   </div>
 
+  <%= f.fields_for :device_location do |builder| %>
+     <%= render "device_location_fields", :f => builder %>
+  <% end %>
+
+  <%= f.fields_for :device_battery do |builder| %>
+     <%= render "device_battery_fields", :f => builder %>
+  <% end %>
+
   <%= f.fields_for :device_test do |builder| %>
      <%= render "device_test_fields", :f => builder %>
   <% end %>
 
-  <%= f.fields_for :device_location do |builder| %>
-     <%= render "device_location_fields", :f => builder %>
-  <% end %>
- 
   <%= f.fields_for :device_problems do |builder| %>
      <%= render "device_problem_fields", :f => builder %>
   <% end %>
-
+ 
   <p>
     <%= link_to_add_association "Add Test", f, :device_test %> |   
     <%= link_to_add_association "Add Problem", f, :device_problems %> | 
-    <%= link_to_add_association "Add Location", f, :device_location %>
+    <%= link_to_add_association "Add Location", f, :device_location %> |
+    <%= link_to_add_association "Add Battery", f, :device_battery %>
   </p>
   <div class="actions">
     <%= f.submit %>
