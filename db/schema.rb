@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120116173350) do
+ActiveRecord::Schema.define(:version => 20120213172728) do
 
   create_table "audits", :force => true do |t|
     t.integer  "user_id"
@@ -28,6 +28,8 @@ ActiveRecord::Schema.define(:version => 20120116173350) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "active"
+    t.date     "arrival_date"
+    t.date     "depart_date"
   end
 
   create_table "device_problem_statuses", :force => true do |t|
@@ -127,9 +129,9 @@ ActiveRecord::Schema.define(:version => 20120116173350) do
     t.integer  "par_level_event"
     t.integer  "par_level_mct"
     t.integer  "alert_amount"
-    t.boolean  "active"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "active"
   end
 
   create_table "patient_assignments", :force => true do |t|
