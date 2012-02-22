@@ -17,10 +17,13 @@
     <blockquote>
       <table>
         <tr>
-          <td>MCT's in stock:</td><td><strong><%= @location.mct_count %></strong></td>
+          <td>MCT in stock:</td><td><strong><%= @location.mct_count %></strong></td>
         </tr>
         <tr>
-          <td>Event's in stock:</td><td><strong><%= @location.event_count %></strong></td>
+          <td>ScottCare in stock:</td><td><strong><%= @location.scottcare_count %></strong></td>
+        </tr>
+        <tr>
+          <td>ERW920 in stock:</td><td><strong><%= @location.event_count %></strong></td>
         </tr>
         <tr>
           <td>Active Patients:</td><td><strong><%= @location.active_patients.count %></strong></td>

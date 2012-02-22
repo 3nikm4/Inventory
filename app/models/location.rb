@@ -45,7 +45,11 @@ class Location < ActiveRecord::Base
     device_locations.where( :active => TRUE ).first.location.devices.where( :device_type_id => 1 )
   end
 
-  def event_devices(_locid)
+  def scottcare_devices
+    device_locations.where( :active => TRUE ).first.location.devices.where( :device_type_id => 9 )
+  end
+
+  def event_devices
     device_locations.where( :active => TRUE ).first.location.devices.where( :device_type_id => 2 )
   end
   
@@ -56,7 +60,15 @@ class Location < ActiveRecord::Base
       return 0
     end
   end
-  
+
+  def scottcare_count
+    if !device_locations.empty?
+      device_locations.first.location.devices.where( "device_type_id = 9 AND `device_locations`.`active` = 1" ).count
+    else
+      return 0
+    end
+  end
+
   def event_count
     if !device_locations.empty?
       device_locations.first.location.devices.where( "device_type_id = 2 AND `device_locations`.`active` = 1" ).count

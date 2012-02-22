@@ -1,10 +1,11 @@
 class DevicesController < ApplicationController
   load_and_authorize_resource
+  helper_method :sort_column, :sort_direction
 
   # GET /devices
   # GET /devices.json
   def index
-    @devices = Device.order("serial_number").page(params[:page]).per(25)
+    @devices = Device.order(sort_column + " " + sort_direction).page(params[:page]).per(25)
     
     respond_to do |format|
       format.html # index.html.erb
@@ -93,4 +94,13 @@ class DevicesController < ApplicationController
   def location_selection
     @selection = DeviceLocations.find( :all, :conditions => [" location_id = ?", params[:id]] )
   end
+
+  def sort_column
+    Device.column_names.include?(params[:sort]) ? params[:sort] : "device_type_id"
+  end
+
+  def sort_direction
+    %w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
+  end
+
 end

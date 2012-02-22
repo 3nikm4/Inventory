@@ -1,22 +1,19 @@
 =============================================================================================================
-Current Revision:
+ ***** 1.0.2.5
 =============================================================================================================
 
-
-  1.0.2.5
     - Updated Reports
       - all_locations_summary, added ScottCare devices to counts
       - location_summary, added ScottCare devices to counts
     - Updated Devices form /app/views/devices/
-      - Added DeviceBatterys
+      - Added DeviceBattery
       - Added DeviceCarrier
+    - Added sortable columns to devices page
 
-      
 =============================================================================================================
-Old Revisions:
+ ***** 1.0.2.4
 =============================================================================================================
 
-  1.0.2.4
     - Added /reports app functions
       - Reports Added
         - location_summary "/reports/locations_summary/:id"
@@ -25,7 +22,10 @@ Old Revisions:
         - devices_in_use "/reports/devices_in_use"
     - Added some functionality to device_location to allow for archival and marking active or inactive
   
-  1.0.2.3.2
+=============================================================================================================
+ ***** 1.0.2.3.2
+=============================================================================================================
+
     - Seperated Patient Device Assignnment info in its own database table
           Removed the information from device_locations
       - Patient Assignment information contained in table structure below      
@@ -39,17 +39,26 @@ Old Revisions:
       - Removed patient_id dropdown
     - Created Patient Assignments views
 
-  1.0.2.3.1
+=============================================================================================================
+ ***** 1.0.2.3.1
+=============================================================================================================
+
     - Device Location View
       - with Type Counts
 
-  1.0.2.2
+=============================================================================================================
+ ***** 1.0.2.2
+=============================================================================================================
+
     - Pagination for index views 
       - Devices
       - Practices
     - /problems View functional
 
-  1.0.2.1
+=============================================================================================================
+ ***** 1.0.2.1
+=============================================================================================================
+
     - Testing Features
       - Form that tracks the different stages of testing
       - View page that displays the testing stage information

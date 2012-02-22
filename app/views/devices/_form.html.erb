@@ -12,15 +12,15 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :device_type_id %><br />
+    <%= f.label :device_type_id, "Device Type" %><br />
     <%= f.collection_select(:device_type_id, DeviceType.all, :id, :device_type, :prompt => true) %>
   </div>
   <div class="field">
-    <%= f.label :device_status_id %><br />
+    <%= f.label :device_status_id, "Device Status" %><br />
     <%= f.collection_select(:device_status_id, DeviceStatus.all, :id, :device_status, :prompt => true) %>
   </div>
   <div class="field">
-    <%= f.label :device_carried_id %><br />
+    <%= f.label :device_carrier_id, "Cell Carrier" %><br />
     <%= f.collection_select(:device_carrier_id, DeviceCarrier.all, :id, :device_carrier, :prompt => true) %>
   </div>
   <div class="field">

@@ -2,12 +2,12 @@
 
 <table>
   <tr class="lead">
-    <th>Status</th>
-    <th>Type</th>
-    <th>Serial Number</th>
-    <th>Comment</th>
-    <th>Imsi</th>
-    <th>Iccid</th>
+    <th><%= sortable "device_status_id", "Status" %></th>
+    <th><%= sortable "device_type_id", "Type" %></th>
+    <th><%= sortable "serial_number", "Serial Number" %></th>
+    <th>Carrier</th>
+    <th>Comments</th>
+
     <th></th>
     <% if can? :update, @device %>
       <th></th>
@@ -24,9 +24,8 @@
     <td><%= device.device_status.device_status %></td>
     <td><%= device.device_type.device_type %></td>
     <td><%= device.serial_number %></td>
+    <td><%= device.device_carrier.device_carrier %>
     <td><%= device.comment %></td>
-    <td><%= device.imsi %></td>
-    <td><%= device.iccid %></td>
     <td><%= link_to 'Show', device %></td>
     <% if can? :update, @device %>
       <td><%= link_to 'Edit', edit_device_path(device) %></td>
@@ -37,6 +36,8 @@
   </tr>
 <% end %>
 </table>
+
+<%= paginate @devices %>
 
 <br />
 

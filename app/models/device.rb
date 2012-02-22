@@ -5,6 +5,8 @@ class Device < ActiveRecord::Base
 
   belongs_to :device_type
   belongs_to :device_status
+  belongs_to :device_carrier
+  has_many :device_battery, :dependent => :destroy
   has_many :device_test, :dependent => :destroy
   has_many :device_location, :dependent => :destroy
   has_many :device_problem_statuses, :through => :device_problem
@@ -13,5 +15,5 @@ class Device < ActiveRecord::Base
   has_many :patients
   has_many :patient_assignments, :through => :patients
 
-  accepts_nested_attributes_for :device_problems, :device_location, :device_test, :allow_destroy => true
+  accepts_nested_attributes_for :device_problems, :device_location, :device_test, :device_battery, :allow_destroy => true
 end
