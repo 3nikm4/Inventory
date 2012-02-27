@@ -7,7 +7,7 @@ gem 'cocoon'
 gem 'devise'
 gem 'bcrypt-ruby', :require => 'bcrypt'
 gem 'cancan'
-#gem 'kaminari'
+gem 'kaminari'
 gem 'will_paginate', '3.0.pre2'
 #gem 'ruby-debug19'
 

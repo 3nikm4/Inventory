@@ -82,3 +82,36 @@ div.field, div.actions {
   font-size: 12px;
   list-style: square;
 }
+
+table.pretty {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: solid 1px;
+  padding: 2px;
+  width: 1000px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+table.pretty tr.odd {
+  background-color: #e9e9e9;
+}
+
+table.pretty tr.even {
+  background-color: #ffffff;
+}
+
+.pretty th .current {
+  padding-right: 12px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.pretty th .asc {
+  background-image: url(/images/up_arrow.gif);
+}
+
+.pretty th .desc {
+  background-image: url(/images/down_arrow.gif);
+}

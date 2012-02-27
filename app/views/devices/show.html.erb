@@ -1,11 +1,16 @@
 <p>
-  <b>Device status:</b>
+  <b>Status:</b>
   <%= @device.device_status.device_status %>
 </p>
 
 <p>
-  <b>Device type:</b>
+  <b>Type:</b>
   <%= @device.device_type.device_type %>
+</p>
+
+<p>
+  <b>Carrier Type:</b>
+  <%= @device.device_carrier.device_carrier %>
 </p>
 
 <p>
@@ -18,15 +23,6 @@
   <%= @device.comment %>
 </p>
 
-<p>
-  <b>Imsi:</b>
-  <%= @device.imsi %>
-</p>
-
-<p>
-  <b>Iccid:</b>
-  <%= @device.iccid %>
-</p>
 <% if @device.device_location %>
   <%= render @device.device_location %>
 <% end %>

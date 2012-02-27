@@ -3,7 +3,7 @@ class ReportsController < ApplicationController
 
   # reports/all_locations_summary
   def all_locations_summary
-    @locations = Location.where( :active => 1 ).order("location_name ASC")
+    @locations = Location.where( :active => TRUE ).order("location_name ASC")
   end
   
   # reports/device_problems

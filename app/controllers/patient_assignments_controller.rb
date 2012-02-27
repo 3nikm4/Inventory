@@ -1,8 +1,11 @@
 class PatientAssignmentsController < ApplicationController
+  load_and_authorize_resource
+  helper_method :sort_column, :sort_direction
+
   # GET /patient_assignments
   # GET /patient_assignments.json
   def index
-    @patient_assignments = PatientAssignment.all
+    @patient_assignments = PatientAssignment.order(sort_column + " " + sort_direction).page(params[:page]).per(25)
 
     respond_to do |format|
       format.html # index.html.erb
@@ -104,5 +107,13 @@ class PatientAssignmentsController < ApplicationController
       format.js
     end
   end
-  
+
+  def sort_column
+    PatientAssignment.column_names.include?(params[:sort]) ? params[:sort] : "monitor_end"
+  end
+
+  def sort_direction
+    %w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
+  end
+
 end

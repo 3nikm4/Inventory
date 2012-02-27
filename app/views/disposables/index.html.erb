@@ -1,8 +1,13 @@
-<h1>Listing disposables</h1>
+<h1>Disposables</h1>
 
-<table>
+<div align="center">
+  <%= paginate @disposables %>
+</div>
+<br />
+
+<table class="pretty">
   <tr>
-    <th>Type</th>
+    <th><%= sortable "disposable_type_id", "Type" %></th>
     <th>Location</th>
     <th>Amount</th>
     <th>Par level</th>
@@ -30,6 +35,9 @@
 <% end %>
 </table>
 
+<div align="center">
+  <%= paginate @disposables %>
+</div>
 <br />
 
 <%= link_to 'New Disposable', new_disposable_path %>

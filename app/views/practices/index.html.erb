@@ -1,6 +1,11 @@
 <h1>Practices</h1>
 
-<table>
+<div align="center">
+  <%= paginate @practices %>
+</div>
+<br />
+
+<table class="pretty">
   <tr>
     <th>Practice name</th>
     <th></th>
@@ -11,8 +16,6 @@
       <th></th>
     <% end %>
   </tr>
-
-<%= paginate @practices %>
 
 <% @practices.each do |practice| %>
   <tr class="<%= cycle('odd','even') %>">
@@ -27,6 +30,11 @@
   </tr>
 <% end %>
 </table>
+<br />
+
+<div align="center">
+  <%= paginate @practices %>
+</div>
 
 <br />
 <% if can? :create, @practice %>

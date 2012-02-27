@@ -1,10 +1,11 @@
 class DisposablesController < ApplicationController
   load_and_authorize_resource
+  helper_method :sort_column, :sort_direction
 
   # GET /disposables
   # GET /disposables.json
   def index
-    @disposables = Disposable.all
+    @disposables = Disposable.order(sort_column + " " + sort_direction).page(params[:page]).per(25)
 
     respond_to do |format|
       format.html # index.html.erb
@@ -82,4 +83,13 @@ class DisposablesController < ApplicationController
       format.json { head :ok }
     end
   end
+
+  def sort_column
+    Device.column_names.include?(params[:sort]) ? params[:sort] : "disposable_type_id"
+  end
+
+  def sort_direction
+    %w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
+  end
+
 end

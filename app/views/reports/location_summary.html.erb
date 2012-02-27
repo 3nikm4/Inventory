@@ -31,27 +31,25 @@
       </table>
     </blockquote>
   </p>
-
-
-  <p>
-    <h4>Devices in Stock</h4>
-    <blockquote>
-      <table border='0' cellspacing='0' cellpadding='2'>
-        <tr class="lead">
-          <th>Serial Number</th>
-          <th>Type</th>
-        </tr>
-
-        <% @location.active_devices.each do |device| %>
-          <tr bgcolor="#<%= cycle('c3c3c3','ffffff') %>">
-            <td><%= device.serial_number %></td>
-            <td><%= device.device_type.device_type %></td>
+  <% if !@location.active_devices.empty? %>
+    <p>
+      <h4>Devices in Stock</h4>
+      <blockquote>
+        <table border='0' cellspacing='0' cellpadding='2'>
+          <tr class="lead">
+            <th>Serial Number</th>
+            <th>Type</th>
           </tr>
-        <% end %>
-      </table>
-    </blockquote>
-  </p>
-
+            <% @location.active_devices.each do |device| %>
+              <tr bgcolor="#<%= cycle('c3c3c3','ffffff') %>">
+                <td><%= device.serial_number %></td>
+                <td><%= device.device_type.device_type %></td>
+              </tr>
+            <% end %>
+        </table>
+      </blockquote>
+    </p>
+   <% end %>
   <% if !@location.active_patients.empty? %>
     <p>
       <h4>Active Patients</h4>
@@ -65,7 +63,6 @@
           <% @location.active_patients.each do |patient| %>
             <tr bgcolor="#<%= cycle('c3c3c3','ffffff') %>">
               <td><%= patient.patient_full_name %></td>
-              <td><%= patient.active_on %></td>
             </tr>
           <% end %>
         </table>

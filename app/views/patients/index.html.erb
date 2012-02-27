@@ -1,24 +1,33 @@
-<h1>Listing patients</h1>
+<h1>Patients</h1>
 
-<table>
+<div align="center">
+  <%= paginate @patients %>
+</div>
+<br />
+
+<table class="pretty">
   <tr>
-    <th>Location</th>
-    <th>Patient Name</th>
-    <th>Address street1</th>
-    <th>Address street2</th>
-    <th>Address city</th>
-    <th>Address state</th>
-    <th>Address zip</th>
-    <th>Dob</th>
+    <th><%= sortable "location_id", "Location" %></th>
+    <th><%= sortable "last_name", "Full Name" %></th>
+    <th>Street Address</th>
+    <th>&nbsp;</th>
+    <th>City</th>
+    <th><%= sortable "address_state", "State" %></th>
+    <th>Zip</th>
+    <th><%= sortable "dob", "DOB" %></th>
     <th></th>
-    <th></th>
-    <th></th>
+    <% if can? :update, @patient %>
+      <th></th>
+    <% end %>
+    <% if can? :destroy, @patient %>
+      <th></th>
+    <% end %>
   </tr>
 
 <% @patients.each do |patient| %>
-  <tr>
+  <tr class="<%= cycle('odd','even') %>">
     <td><%= patient.location.location_name %></td>
-    <td><%= patient.patient_full_name %></td>
+    <td><%= patient.last_name %>, <%= patient.first_name %></td>
     <td><%= patient.address_street1 %></td>
     <td><%= patient.address_street2 %></td>
     <td><%= patient.address_city %></td>
@@ -32,6 +41,10 @@
 <% end %>
 </table>
 
+<br />
+<div align="center">
+  <%= paginate @patients %>
+</div>
 <br />
 
 <%= link_to 'New Patient', new_patient_path %>

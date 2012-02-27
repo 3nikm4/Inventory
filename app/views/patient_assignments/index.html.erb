@@ -1,19 +1,24 @@
-<h1>Listing Patient Assignments</h1>
+<h1>Patient Assignments</h1>
 
-<table>
+<div align="center">
+  <%= paginate @patient_assignments %>
+</div>
+<br />
+
+<table class="pretty">
   <tr>
     <th>Patient</th>
-    <th>Device</th>
-    <th>Start Date</th>
-    <th>End Date</th>
+    <th>Device Serial</th>
+    <th><%= sortable "monitor_start", "Start Date" %></th>
+    <th><%= sortable "monitor_end", "End Date" %></th>
     <th></th>
     <th></th>
     <th></th>
   </tr>
 
 <% @patient_assignments.each do |patient_assignment| %>
-  <tr>
-    <td><%= patient_assignment.patient.patient_full_name %></td>
+  <tr class="<%= cycle('odd','even') %>">
+    <td><%= patient_assignment.patient.last_name %>, <%= patient_assignment.patient.first_name %></td>
     <td><%= patient_assignment.device.serial_number %></td>
     <td><%= patient_assignment.monitor_start %></td>
     <td><%= patient_assignment.monitor_end %></td>
@@ -23,7 +28,11 @@
   </tr>
 <% end %>
 </table>
+<br />
 
+<div align="center">
+  <%= paginate @patient_assignments %>
+</div>
 <br />
 
 <%= link_to 'New Patient assignment', new_patient_assignment_path %>

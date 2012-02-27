@@ -35,6 +35,16 @@
     <%= f.label :monitor_end %><br />
     <%= f.date_select :monitor_end %>
   </div>
+
+  <div class="field">
+    <%= f.label :returned_date, "Date Returned" %><br />
+    <%= f.date_select :returned_date %>
+  </div>
+
+  <div class="field">
+    <%= f.label :active, "Active" %>
+    <%= f.checkbox :active %>
+  </div>
   <br />
   
   <div class="actions">

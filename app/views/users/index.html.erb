@@ -1,14 +1,17 @@
-<h1>Listing users</h1>
+<h1>Users</h1>
 
-<table>
+<div align="center">
+  <%= paginate @users %>
+</div>
+<br />
+
+<table class="pretty">
   <tr>
     <th>Group</th>
-    <th>Username</th>
-    <th>Password</th>
-    <th>First name</th>
-    <th>Last name</th>
-    <th>Email</th>
-    <th>Active</th>
+    <th><%= sortable "username", "Username" %></th>
+    <th><%= sortable "first_name", "First name" %></th>
+    <th><%= sortable "last_name", "Last name" %></th>
+    <th><%= sortable "email", "Email" %></th>
     <th></th>
     <% if can? :update, @device %>
       <th></th>
@@ -19,14 +22,12 @@
   </tr>
 
 <% @users.each do |user| %>
-  <tr>
+  <tr class="<%= cycle('odd','even') %>">
     <td><%= user.group.group_name %></td>
     <td><%= user.username %></td>
-    <td><%= user.password %></td>
     <td><%= user.first_name %></td>
     <td><%= user.last_name %></td>
     <td><%= user.email %></td>
-    <td><%= user.active %></td>
     <td><%= link_to 'Show', user %></td>
     <% if can? :update, @device %>
       <td><%= link_to 'Edit', edit_user_path(user) %></td>
@@ -37,7 +38,10 @@
   </tr>
 <% end %>
 </table>
-
+<br />
+<div align="center">
+  <%= paginate @users %>
+</div>
 <br />
 <% if can? :update, @user %>
   <%= link_to 'New User', new_user_path %>

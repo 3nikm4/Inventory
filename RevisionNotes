@@ -1,4 +1,22 @@
 =============================================================================================================
+ ***** 1.0.2.5.2
+=============================================================================================================
+
+    - Hotfix for Patient Assignments
+      - Added Active check box to patient assignment form
+        - Generated migration for active
+      - Added Returned Date to form and to schema
+        - Generated migration for returned_date
+    - Fix bug for Location Summary report that was causing errors if device_locations 
+      weren't properly marked active
+    - Added ScottCare Par Levels to locations
+      - Generated migration par_level_scottcare
+    - Began simple styling of indexing pages
+      - Added sortable columns for devices, patients, locations, disposables, users, patient_assignments, and 
+        practices
+      - Added sort images for sorted column
+
+=============================================================================================================
  ***** 1.0.2.5
 =============================================================================================================
 

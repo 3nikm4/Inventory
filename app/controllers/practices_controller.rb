@@ -82,4 +82,13 @@ class PracticesController < ApplicationController
       format.json { head :ok }
     end
   end
+
+  def sort_column
+    Practice.column_names.include?(params[:sort]) ? params[:sort] : "first_name"
+  end
+
+  def sort_direction
+    %w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
+  end
+
 end

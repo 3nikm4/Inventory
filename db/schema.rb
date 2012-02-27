@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120213200829) do
+ActiveRecord::Schema.define(:version => 20120223170813) do
 
   create_table "audits", :force => true do |t|
     t.integer  "user_id"
@@ -84,7 +84,7 @@ ActiveRecord::Schema.define(:version => 20120213200829) do
 
   create_table "devices", :force => true do |t|
     t.integer  "device_status_id"
-    t.integer  "device_type_id"
+    t.integer  "device_type_id",    :default => 1
     t.string   "serial_number"
     t.string   "asset_tag"
     t.text     "comment"
@@ -92,7 +92,7 @@ ActiveRecord::Schema.define(:version => 20120213200829) do
     t.string   "iccid"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "device_carrier_id"
+    t.integer  "device_carrier_id", :default => 1
   end
 
   create_table "disposable_types", :force => true do |t|
@@ -146,6 +146,7 @@ ActiveRecord::Schema.define(:version => 20120213200829) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "active"
+    t.integer  "par_level_scottcare"
   end
 
   create_table "patient_assignments", :force => true do |t|
@@ -155,6 +156,8 @@ ActiveRecord::Schema.define(:version => 20120213200829) do
     t.date     "monitor_end"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.date     "returned_date"
+    t.boolean  "active",        :default => false
   end
 
   create_table "patients", :force => true do |t|

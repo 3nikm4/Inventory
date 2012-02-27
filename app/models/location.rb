@@ -22,7 +22,9 @@ class Location < ActiveRecord::Base
   accepts_nested_attributes_for :location_alert_contacts, :patient_assignments
   
   def active_devices
-    device_locations.where( :active => TRUE ).first.location.devices
+#    device_locations.where( :active => TRUE ).first.location.devices
+#    device_locations.first.location.devices.where( "`device_locations`.`active` = 1" )
+    devices.where( "`device_locations`.`active` = 1" )
   end
 
   def active_patients

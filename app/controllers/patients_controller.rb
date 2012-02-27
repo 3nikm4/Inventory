@@ -1,10 +1,11 @@
 class PatientsController < ApplicationController
   load_and_authorize_resource
+  helper_method :sort_column, :sort_direction
 
   # GET /patients
   # GET /patients.json
   def index
-    @patients = Patient.order("last_name ASC")
+    @patients = Patient.order(sort_column + " " + sort_direction).page(params[:page]).per(25)
     #joins(:locations).order("location_name ASC, patient_full_name ASC")
 
     respond_to do |format|
@@ -83,4 +84,13 @@ class PatientsController < ApplicationController
       format.json { head :ok }
     end
   end
+
+  def sort_column
+    Patient.column_names.include?(params[:sort]) ? params[:sort] : "last_name"
+  end
+
+  def sort_direction
+    %w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
+  end
+
 end
