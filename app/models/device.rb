@@ -13,7 +13,8 @@ class Device < ActiveRecord::Base
   has_many :device_problems, :order => 'created_at DESC', :dependent => :destroy
   has_many :audits, :dependent => :destroy
   has_many :patients
-  has_many :patient_assignments, :through => :patients
+#  has_many :patient_assignments, :through => :patients
+  has_many :patient_assignments
 
   accepts_nested_attributes_for :device_problems, :device_location, :device_test, :device_battery, :allow_destroy => true
 end

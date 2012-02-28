@@ -1,6 +1,6 @@
 <h1>Problematic Devices</h1>
 
-<table>
+<table class="printertable">
   <tr>
     <th>Device</th>
     <th>Problem</th>
@@ -11,8 +11,8 @@
     <th></th>
   </tr>
 
-<% @devices.each do |device_problem| %>
-  <tr bgcolor="#<%= cycle('c3c3c3','ffffff') %>">
+<% @problems.each do |device_problem| %>
+  <tr class="<%= cycle('odd','even') %>">
     <td><%= device_problem.device.serial_number %>
     <td><%= device_problem.device_problem %></td>
     <td><%= device_problem.comment %></td>

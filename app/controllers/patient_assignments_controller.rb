@@ -5,7 +5,7 @@ class PatientAssignmentsController < ApplicationController
   # GET /patient_assignments
   # GET /patient_assignments.json
   def index
-    @patient_assignments = PatientAssignment.order(sort_column + " " + sort_direction).page(params[:page]).per(25)
+    @patient_assignments = PatientAssignment.includes(:device, :patient).order(sort_column + " " + sort_direction).page(params[:page]).per(25)
 
     respond_to do |format|
       format.html # index.html.erb
