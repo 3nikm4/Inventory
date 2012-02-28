@@ -61,6 +61,7 @@
     <p>
       <%= link_to_add_association "Add Contact", f, :location_alert_contacts %> | 
     </p>
-    <%= link_to_remove_association "Remove Location", f %>
+    <%= link_to_remove_association "Remove Location", f %> | 
+    <%= link_to "Summary Report", :controller => "reports", :action => "location_summary", @location.id %>
   </fieldset>
 </div>

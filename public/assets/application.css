@@ -89,7 +89,7 @@ table.pretty {
   border-collapse: collapse;
   border: solid 1px;
   padding: 2px;
-  width: 1000px;
+  width: 900px;
   vertical-align: middle;
   text-align: center;
 }
@@ -102,16 +102,37 @@ table.pretty tr.even {
   background-color: #ffffff;
 }
 
-.pretty th .current {
+table.pretty th .current {
   padding-right: 12px;
   background-repeat: no-repeat;
   background-position: right center;
 }
 
-.pretty th .asc {
+table.pretty th .asc {
   background-image: url(/images/up_arrow.gif);
 }
 
-.pretty th .desc {
+table.pretty th .desc {
   background-image: url(/images/down_arrow.gif);
+}
+
+#side_nav {
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 70px;
+}
+
+#side_nav .link {
+  text-decoration: bold;
+}
+
+#side_nav .sublink {
+  margin-left:10px;
+  text-decoration: italic;
+}
+
+#content {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 70px;
 }
