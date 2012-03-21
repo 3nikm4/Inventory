@@ -17,7 +17,8 @@
   </div>
 
   <%= f.fields_for :locations do |builder| %>
-     <%= render "location_fields", :f => builder %>
+      <%= render :partial => "location_fields", :locals => { :f => builder, :loc_obj => @locations[@loc_count] } %>
+      <% @loc_count = @loc_count + 1 %>
   <% end %>
 
   <% if can? :create, @location %>

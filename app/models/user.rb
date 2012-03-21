@@ -1,5 +1,8 @@
 class User < ActiveRecord::Base
-  attr_accessor :password
+  # :token_authenticatable, :lockable, :timeoutable, :activatable, :registerable, :confirmable, :recoverable, :rememberable, :trackable, :validatable
+  devise :database_authenticatable
+
+  attr_accessor :email, :password, :password_confirmation
   
   before_save :encrypt_password
 
@@ -20,14 +23,14 @@ class User < ActiveRecord::Base
   has_many :audit
   
   # checks for correct password
-  def self.authenticate(username, password)
-    user = find_by_username(username)
-    if user && user.password_hash == BCrypt::Engine.hash_secret(password, user.password_salt)
-      user
-    else
-      nil
-    end
-  end
+#  def self.authenticate(username, password)
+#    user = find_by_username(username)
+#    if user && user.password_hash == BCrypt::Engine.hash_secret(password, user.password_salt)
+#      user
+#    else
+#      nil
+#    end
+#  end
   
   # encrypts the password
   def encrypt_password

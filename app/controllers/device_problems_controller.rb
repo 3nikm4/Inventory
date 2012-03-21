@@ -1,5 +1,4 @@
 class DeviceProblemsController < ApplicationController
-  load_and_authorize_resource
 
   # GET /device_problems
   # GET /device_problems.json
@@ -46,6 +45,7 @@ class DeviceProblemsController < ApplicationController
 
     respond_to do |format|
       if @device_problem.save
+        DeviceMailer.problem_device(@device_problem.device).deliver
         format.html { redirect_to @device_problem, notice: 'Device problem was successfully created.' }
         format.json { render json: @device_problem, status: :created, location: @device_problem }
       else

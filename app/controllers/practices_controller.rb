@@ -16,6 +16,8 @@ class PracticesController < ApplicationController
   # GET /practices/1.json
   def show
     @practice = Practice.find(params[:id])
+    @locations = @practice.locations
+    @loc_count = 0
 
     respond_to do |format|
       format.html # show.html.erb
@@ -37,6 +39,8 @@ class PracticesController < ApplicationController
   # GET /practices/1/edit
   def edit
     @practice = Practice.find(params[:id])
+    @locations = @practice.locations
+    @loc_count = 0
   end
 
   # POST /practices

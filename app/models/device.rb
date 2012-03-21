@@ -1,4 +1,5 @@
 class Device < ActiveRecord::Base
+  validates :device_carrier_id, :presence => true
   validates :device_type_id, :presence => true
   validates :device_status_id, :presence => true
   validates :serial_number, :presence => true

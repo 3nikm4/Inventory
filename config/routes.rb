@@ -1,13 +1,20 @@
 Inventory::Application.routes.draw do
 
+#  devise_for :users
+#  devise_scope :user do
+#    get "signup",   :to => "accounts#new"
+#    get "signin",   :to => "devise/sessions#new"
+#    get "signout",  :to => "devise/sessions#destroy"
+#  end
 
-  resources :device_batteries
+  authenticated :user do
+    root :to => 'home#index'
+  end
 
-  resources :device_carriers
+  root :to => "home#index"
 
   post "dynamic_devices/:id" => "patient_assignments#dynamic_devices", :as => "dynamic_devices"
   post "dynamic_patients/:id" => "patient_assignments#dynamic_patients", :as => "dynamic_patients"
-
   get "log_out" => "sessions#destroy", :as => "log_out"
   get "log_in" => "sessions#new", :as => "log_in"
   get "users/:id/password" => "users#password", :as => "reset_pass"
@@ -17,8 +24,9 @@ Inventory::Application.routes.draw do
   get "reports/devices_in_use" => "reports#devices_in_use", :as => "devices_in_use"
   get "device_by_location/:id" => "locations#devices_report", :as => "device_by_location"
 
-  root :to => "home#index"
-  
+
+  resources :device_batteries
+  resources :device_carriers  
   resources :audits
   resources :disposable_types
   resources :disposables

@@ -28,7 +28,8 @@ class Location < ActiveRecord::Base
   end
 
   def active_patients
-    patients.all
+#    patients.all
+    patients.joins(:patient_assignments).where( "`patient_assignments`.`active` = 1" )
   end
   
   def devices_count

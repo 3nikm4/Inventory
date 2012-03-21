@@ -56,12 +56,17 @@
 
     <% f.fields_for :location_alert_contacts do |builder| %>
       <%= render :partial => "location_alert_contacts", :f => builder %>
-    <% end %> 
+    <% end %>
 
+<%#= debug(loc_obj %>
+%>
+<%= debug(local_assigns[:loc_obj]) %>
     <p>
       <%= link_to_add_association "Add Contact", f, :location_alert_contacts %> | 
+      <%= link_to_remove_association "Remove Location", f %> |
+      <%#= link_to "Location Report", url_for(location_summary_path, id => local_assigns[:loc_obj].id) %> 
+      %>
     </p>
-    <%= link_to_remove_association "Remove Location", f %> | 
-    <%= link_to "Summary Report", :controller => "reports", :action => "location_summary", @location.id %>
+
   </fieldset>
 </div>

@@ -28,9 +28,9 @@ class PatientAssignmentsController < ApplicationController
   # GET /patient_assignments/new.json
   def new
     @patient_assignment = PatientAssignment.new
-    @locations = Location.all
-    @patients = Patient.all
-    @devices = Device.all
+    @locations = Location.order("location_name ASC")
+    @patients = Patient.order("last_name ASC")
+    @devices = Device.order("serial_number ASC")
 
     respond_to do |format|
       format.html # new.html.erb
@@ -41,9 +41,9 @@ class PatientAssignmentsController < ApplicationController
   # GET /patient_assignments/1/edit
   def edit
     @patient_assignment = PatientAssignment.find(params[:id])
-    @locations = Location.all
-    @patients = Patient.all
-    @devices = Device.all
+    @locations = Location.order("location_name ASC")
+    @patients = Patient.order("last_name ASC")
+    @devices = Device.order("serial_number ASC")
   end
 
   # POST /patient_assignments
